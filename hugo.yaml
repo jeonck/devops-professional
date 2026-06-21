@@ -66,6 +66,15 @@ params:
     copy:
       enable: true
 
+  blog:
+    list:
+      displayTags: true
+      sortBy: date
+      sortOrder: desc
+      pagerSize: 20
+    article:
+      displayPagination: true
+
 menu:
   main:
     - name: Docs
@@ -80,12 +89,15 @@ menu:
     - name: Glossary
       pageRef: /docs/glossary
       weight: 40
-    - name: Search
+    - name: Blog
+      pageRef: /blog
       weight: 50
+    - name: Search
+      weight: 60
       params:
         type: search
     - name: GitHub
-      weight: 60
+      weight: 70
       url: "https://github.com/jeonck/devops-professional"
       params:
         icon: github
