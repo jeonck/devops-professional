@@ -80,24 +80,18 @@ menu:
     - name: Docs
       pageRef: /docs
       weight: 10
-    - name: Competencies
-      pageRef: /docs/competencies
-      weight: 20
-    - name: Maturity Model
-      pageRef: /docs/maturity-model
-      weight: 30
     - name: Glossary
       pageRef: /docs/glossary
-      weight: 40
+      weight: 20
     - name: Blog
       pageRef: /blog
-      weight: 50
+      weight: 30
     - name: Search
-      weight: 60
+      weight: 40
       params:
         type: search
     - name: GitHub
-      weight: 70
+      weight: 50
       url: "https://github.com/jeonck/devops-professional"
       params:
         icon: github
