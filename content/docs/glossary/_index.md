@@ -2,6 +2,8 @@
 title: "Glossary"
 linkTitle: "Glossary"
 weight: 100
+sidebar:
+  exclude: true
 ---
 
 Acronyms and frameworks referenced throughout this playbook, in alphabetical order.
