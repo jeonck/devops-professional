@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --hextra-font-sans: "Inter", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --hextra-font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+body {
+  font-family: var(--hextra-font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.01em;
+  line-height: 1.65;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.content {
+  font-size: 1.05rem;
+  color: #374151;
+}
+
+.dark .content {
+  color: #d1d5db;
+}
+
+.content a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  transition: all 0.2s ease;
+}
+
+.hextra-sidebar-container {
+  font-size: 0.95rem;
+}
+
+code, pre, kbd {
+  font-family: var(--hextra-font-mono);
+}
+
+/* Proof-artifact / KPI callout tables read better with a bit more breathing room */
+.content table {
+  font-size: 0.95rem;
+}
+
+/* Maturity-level badges used across competency pages */
+.maturity-badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+:root {
+  --primary-hue: 217;
+  --primary-saturation: 91%;
+  --primary-lightness: 45%;
+}

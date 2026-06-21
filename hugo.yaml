@@ -1,0 +1,91 @@
+baseURL: https://jeonck.github.io/devops-professional/
+title: DevOps Professional Playbook
+theme: hextra
+
+defaultContentLanguage: en
+locale: en-US
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)'], ['$', '$']]
+        enable: true
+  highlight:
+    noClasses: false
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
+
+params:
+  description: >-
+    A practitioner's evidence framework for DevOps professionals — proving real-world
+    competency across delivery performance, platform engineering, security, observability,
+    and AI-augmented operations for 2026 and beyond.
+
+  navbar:
+    displayLogo: true
+    logo:
+      text: DevOps Professional Playbook
+    width: wide
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: true
+    width: wide
+
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      index: content
+      tokenize: forward
+
+  math:
+    enable: true
+
+  mermaid:
+    enable: true
+
+  theme:
+    default: system
+    displayToggle: true
+
+  page:
+    width: wide
+
+  toc:
+    displayToc: true
+
+  highlight:
+    copy:
+      enable: true
+
+menu:
+  main:
+    - name: Docs
+      pageRef: /docs
+      weight: 10
+    - name: Competencies
+      pageRef: /docs/competencies
+      weight: 20
+    - name: Maturity Model
+      pageRef: /docs/maturity-model
+      weight: 30
+    - name: Glossary
+      pageRef: /docs/glossary
+      weight: 40
+    - name: Search
+      weight: 50
+      params:
+        type: search
+    - name: GitHub
+      weight: 60
+      url: "https://github.com/jeonck/devops-professional"
+      params:
+        icon: github
