@@ -19,6 +19,20 @@ DevOps shouldn't stop at being a 'culture' or a 'philosophy.' It has to be prove
 
 The goal of DevOps is simple: "how fast, and how safely, can we deliver value to customers?" To measure both sides of that question, DORA asks four core questions.
 
+The diagram below maps all four metrics onto the actual path code takes from a developer's commit to a stable production service:
+
+```mermaid
+flowchart LR
+    A[Code Commit] -->|"Lead Time for Changes"| B[CI/CD Pipeline]
+    B -->|"Deployment Frequency"| C[Production]
+    C --> D{Incident?}
+    D -->|"Yes → Change Failure Rate"| E[Restore Service]
+    E -->|"Time to Restore Service"| C
+    D -->|No| C
+```
+
+The top path (commit → pipeline → production) is the **speed** half of DORA. The bottom loop (production → incident → restore) is the **stability** half. A healthy team isn't just fast on top — it also closes the bottom loop quickly when something breaks.
+
 ### 1. Questions about speed (how fast?)
 
 - **Deployment Frequency**: How often are we shipping new functionality to customers? (Multiple times a day? Once a month?)
