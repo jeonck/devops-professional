@@ -1,5 +1,5 @@
 ---
-title: "\"우리 팀, 잘하고 있는 걸까?\" 데브옵스의 실체를 확인하는 4가지 질문"
+title: "Is Our Team Actually Doing Well? 4 Questions That Reveal the Truth About DevOps"
 date: 2026-06-21
 authors:
   - name: DevOps Professional Playbook
@@ -7,65 +7,65 @@ tags:
   - DORA
   - Metrics
   - DevOps
-summary: "데브옵스를 '문화'가 아닌 '성과'로 증명하는 법 — DORA 4대 핵심 지표를 쉽게 정리합니다."
+summary: "How to prove DevOps as 'performance,' not just 'culture' — a plain-language walkthrough of the four DORA metrics."
 ---
 
-많은 회사에서 "우리는 데브옵스(DevOps)를 합니다"라고 말합니다. 하지만 막상 "그래서 얼마나 잘하고 계신가요?"라고 물어보면, 다들 "음, 개발자들과 운영자들이 사이좋게 지내요"라거나 "자동화 도구를 쓰고 있어요"처럼 모호하게 대답하곤 하죠.
+Plenty of companies say "we do DevOps." But ask the obvious follow-up — "so how well are you doing it?" — and the answers get vague fast: "the developers and ops folks get along well," or "we use some automation tools."
 
-데브옵스는 단순히 '문화'나 '철학'에 머물러선 안 됩니다. 비즈니스를 성공으로 이끄는 '성과'로 증명되어야 하니까요. 그래서 오늘은 전문가들이 데브옵스 성과를 측정할 때 사용하는 세계 표준, 'DORA(도라) 지표'를 아주 쉽게 소개해 드립니다.
+DevOps shouldn't stop at being a 'culture' or a 'philosophy.' It has to be proven as the 'performance' that drives business success. So today, let's walk through the industry standard experts actually use to measure DevOps performance: the DORA metrics.
 <!--more-->
 
-## 🚀 데브옵스를 평가하는 '속도'와 '안정성'의 균형
+## 🚀 Balancing 'Speed' and 'Stability'
 
-데브옵스의 목표는 간단합니다. "고객에게 가치를 얼마나 빨리, 그리고 얼마나 안전하게 전달하는가"입니다. 이 두 가지를 측정하기 위해 DORA는 4가지 핵심 질문을 던집니다.
+The goal of DevOps is simple: "how fast, and how safely, can we deliver value to customers?" To measure both sides of that question, DORA asks four core questions.
 
-### 1. 속도를 위한 질문 (얼마나 빠르게?)
+### 1. Questions about speed (how fast?)
 
-- **배포 빈도**: 우리는 얼마나 자주 새로운 기능을 고객에게 전달하고 있나요? (하루에 여러 번? 아니면 한 달에 한 번?)
-- **변경 리드 타임**: 개발자가 코드를 완성한 순간부터 고객이 실제로 사용할 수 있기까지 얼마나 걸리나요?
+- **Deployment Frequency**: How often are we shipping new functionality to customers? (Multiple times a day? Once a month?)
+- **Lead Time for Changes**: How long does it take from the moment a developer finishes code until customers can actually use it?
 
-### 2. 안정성을 위한 질문 (얼마나 안전하게?)
+### 2. Questions about stability (how safely?)
 
-- **서비스 복구 시간**: 만약 장애가 발생했다면, 다시 정상으로 돌려놓는 데 얼마나 걸리나요?
-- **변경 실패율**: 배포한 기능 중 오류가 생겨서 다시 수정해야 하는 비율은 얼마나 되나요?
+- **Time to Restore Service**: If an incident happens, how long does it take to get back to normal?
+- **Change Failure Rate**: What percentage of deployments introduce a bug that needs to be fixed?
 
-## ✨ 왜 DORA 지표가 '손에 잡히는' 무기일까요?
+## ✨ Why DORA Metrics Are a Weapon You Can Actually Hold
 
-철학적인 말들로 가득한 회의실에서 "우리는 리드 타임을 2주에서 1주일로 줄이겠습니다"라고 말하는 순간, 대화의 질이 달라집니다.
+In a meeting room full of abstract talk, the moment someone says "we're going to cut our lead time from two weeks to one week," the quality of the conversation changes.
 
-- **모호함을 데이터로**: "협업이 잘 돼" 대신 "배포 복구 시간이 1시간 이내"라는 숫자가 우리 팀의 실력을 객관적으로 보여줍니다.
-- **병목 지점이 보인다**: 배포가 느리다면 파이프라인을, 장애가 잦다면 테스트 자동화를 점검하면 됩니다. 고쳐야 할 곳이 명확해지죠.
-- **전문가의 증거**: 10년 넘게 전 세계 수만 개의 조직 데이터를 분석해 만든 '산업 표준'이기에, 경영진에게도 충분히 설득력 있는 근거가 됩니다.
+- **Turning ambiguity into data**: A number like "deployment recovery time is under one hour" shows your team's real capability far more objectively than "we collaborate well."
+- **Bottlenecks become visible**: If deployments are slow, check the pipeline. If incidents are frequent, check test automation. It becomes obvious what to fix.
+- **Expert-grade evidence**: Because it's built from over a decade of data across tens of thousands of organizations worldwide, it's an "industry standard" — credible enough to bring to leadership.
 
 {{< callout type="info" >}}
-DORA(DevOps Research and Assessment) 지표는 소프트웨어 개발 조직의 성과를 4가지 카테고리로 분류해 평가합니다. 이 분류는 각 팀이 소프트웨어를 얼마나 안정적이고 빠르게 전달하고 있는지를 객관적으로 파악하는 데 도움을 줍니다.
+DORA (DevOps Research and Assessment) metrics classify software delivery organizations into four performance categories. This classification helps each team objectively understand how reliably and quickly it ships software.
 {{< /callout >}}
 
-## 💡 마치며: '열심히'가 아닌 '똑똑하게' 일하기
+## 💡 In Closing: Work 'Smart,' Not Just 'Hard'
 
-데브옵스는 단순히 바쁘게 움직이는 문화가 아닙니다. 작고 빈번한 배포로 가치를 빠르게 전달하고, 배포 흐름을 효율화하여 안정성을 확보함으로써 시스템의 탄력성을 극대화하는 것—이것이 데브옵스의 진짜 얼굴입니다.
+DevOps isn't a culture of staying busy. It's about delivering value quickly through small, frequent deployments, and maximizing system resilience by streamlining the delivery flow to secure stability — that's the real face of DevOps.
 
-지금 여러분의 팀은 이 4가지 지표 중 어디에 강점이 있고, 어디를 보완해야 할까요? 오늘부터 추상적인 고민 대신, DORA 지표라는 '데이터'와 함께 우리 팀의 성장을 이야기해 보는 건 어떨까요?
+Where does your team currently have strength across these four metrics, and where does it need work? Instead of an abstract debate, why not start talking about your team's growth using DORA metrics as the data?
 
-## DORA 성과 카테고리 기준표
+## DORA Performance Category Benchmarks
 
-각 카테고리는 팀의 배포 빈도(Deployment Frequency), 변경 리드 타임(Lead Time for Changes), 변경 실패율(Change Failure Rate), 서비스 복구 시간(Time to Restore Service)을 기준으로 나뉩니다.
+Each category is defined by four metrics: Deployment Frequency, Lead Time for Changes, Change Failure Rate, and Time to Restore Service.
 
-| 성과 수준 | 배포 빈도 | 변경 리드 타임 | 변경 실패율 | 서비스 복구 시간 |
+| Performance Level | Deployment Frequency | Lead Time for Changes | Change Failure Rate | Time to Restore Service |
 |---|---|---|---|---|
-| **Elite (엘리트)** | 온디맨드 (일일 다수 배포) | 1시간 미만 | 0% ~ 15% | 1시간 미만 |
-| **High (높음)** | 월 1회 ~ 주 1회 | 1일 ~ 1주 | 15% ~ 30% | 1일 미만 |
-| **Medium (중간)** | 6개월 1회 ~ 월 1회 | 1주 ~ 1개월 | 30% ~ 46% | 1일 ~ 1주 |
-| **Low (낮음)** | 6개월에 1회 미만 | 1개월 ~ 6개월 | 46% ~ 60% | 1개월 ~ 1주 |
+| **Elite** | On-demand (multiple deploys per day) | Less than 1 hour | 0% – 15% | Less than 1 hour |
+| **High** | Between once per week and once per month | 1 day – 1 week | 15% – 30% | Less than 1 day |
+| **Medium** | Between once per month and once every 6 months | 1 week – 1 month | 30% – 46% | 1 day – 1 week |
+| **Low** | Less than once every 6 months | 1 month – 6 months | 46% – 60% | 1 month – 1 week |
 
-### 주요 활용 가이드
+### How to Use This Table
 
-- **객관적 지표 활용**: 이 기준은 조직이 현재 어느 단계에 있는지 파악하고, 병목 구간을 개선하기 위한 목표를 설정하는 데 사용됩니다.
-- **지속적 개선**: 단순히 분류하는 것을 넘어, 위 단계로 올라가기 위해 CI/CD 파이프라인 최적화나 장애 대응 프로세스 개선 등을 추진하는 도구로 활용합니다.
-- **주의사항**: Datadog의 DORA Metrics 가이드에서도 강조하듯, 이 지표들은 팀 단위의 프로세스 개선을 위한 것이며, 개별 개발자의 업무 성과나 생산성을 평가하는 용도로는 절대 사용해서는 안 됩니다.
+- **Use it as an objective benchmark**: This table helps an organization identify where it currently stands and set targets for improving its bottlenecks.
+- **Drive continuous improvement**: Beyond just classification, use it as a tool to push initiatives like CI/CD pipeline optimization or incident-response process improvement to climb to the next level.
+- **A caution worth repeating**: As Datadog's own DORA Metrics guide emphasizes, these metrics exist to improve team-level processes — they should never be used to evaluate an individual developer's performance or productivity.
 
-이 사이트의 [Delivery Performance & DORA Metrics](/docs/competencies/delivery-performance-dora/) 페이지에서 DORA 지표를 실무 증빙(evidence)으로 연결하는 방법도 함께 확인해 보세요.
+Check out this site's [Delivery Performance & DORA Metrics](/docs/competencies/delivery-performance-dora/) page to see how to turn DORA metrics into real-world evidence of competency.
 
-## 참고 자료
+## References
 
 - [Datadog — DORA Metrics Knowledge Center](https://www.datadoghq.com/knowledge-center/dora-metrics/)
