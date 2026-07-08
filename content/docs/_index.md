@@ -39,6 +39,7 @@ Each competency page is structured identically so you can compare across categor
 
 {{< cards >}}
   {{< card link="competencies" title="The 13 Competencies" subtitle="Browse the full framework, grouped into four clusters" icon="collection" >}}
+  {{< card link="tools" title="Tools Landscape" subtitle="2026's most-adopted DevOps and platform engineering tools, by category" icon="template" >}}
   {{< card link="maturity-model" title="Maturity Model" subtitle="The Associate → Principal scale used across every competency" icon="academic-cap" >}}
   {{< card link="glossary" title="Glossary" subtitle="DORA, SLSA, SBOM, IDP and the other acronyms used throughout" icon="book-open" >}}
 {{< /cards >}}

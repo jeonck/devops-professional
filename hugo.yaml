@@ -80,6 +80,9 @@ menu:
     - name: Docs
       pageRef: /docs
       weight: 10
+    - name: Tools
+      pageRef: /docs/tools
+      weight: 15
     - name: Glossary
       pageRef: /docs/glossary
       weight: 20
