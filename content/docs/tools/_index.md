@@ -140,6 +140,14 @@ Related competency: [Incident Response, Resilience & Disaster Recovery](../compe
 | [LitmusChaos](https://litmuschaos.io/) | CNCF chaos engineering framework | Alternative to Chaos Mesh with a broader experiment hub and ChaosCenter UI |
 | [Gremlin](https://www.gremlin.com/) | Managed chaos engineering platform | Chosen when teams want guided "game day" workflows and safety controls out of the box, not a DIY CRD setup |
 
+## Community & Indie Tools
+
+Not every useful tool comes from a foundation or a vendor. This section collects small, sharply-scoped utilities built by individual developers or tiny teams that solve one real practitioner pain point well — included for practical usefulness, not adoption numbers.
+
+| Tool | What it does | Why it's useful in practice |
+|---|---|---|
+| [istio-viz](https://istio-viz.wckd14.xyz/) | Parses Gateway/VirtualService/DestinationRule manifests (offline or live from a cluster) and renders the full L7 routing topology as an interactive diagram; also supports request tracing, config linting, and a watch mode for live re-rendering | Istio routing rules are notoriously hard to reason about from raw YAML — this turns them into a diagram you can actually debug from, and its lint mode catches broken Gateway/VirtualService bindings before they hit production. Related: [Kubernetes & Container Platform Operations](../competencies/kubernetes-container-platform) |
+
 ## How to Use This Page
 
 1. **Don't collect logos — collect evidence.** For each tool you claim, be ready to describe the specific production problem it solved for you, tied to the [Evidence You Can Show](../competencies) section of the matching competency.
