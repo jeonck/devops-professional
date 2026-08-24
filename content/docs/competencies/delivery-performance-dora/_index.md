@@ -59,3 +59,9 @@ DORA metrics are the common language hiring managers, VPs of Engineering, and au
 - "Reduced average incident recovery time (MTTR) from 90 minutes to 18 minutes through improved alerting and automated rollback."
 - "Cut change failure rate from 12% to 3% by introducing mandatory canary analysis before full rollout."
 - "Built a DORA metrics dashboard adopted by 6 teams, used in quarterly engineering reviews to prioritize platform investment."
+
+## Case Studies
+
+Industry patterns and incident write-ups from [IT Automation](https://automations.metacog.co.kr/docs/case-studies/) that show this competency at work across organizations:
+
+- [Trunk-Based Development at Scale](https://automations.metacog.co.kr/docs/case-studies/trunk-based-development/)
