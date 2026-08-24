@@ -74,3 +74,17 @@ Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/prob
 Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
 
 - [Topic of the day — signing an image and attesting its SBOM with cosign v3 and syft](https://handson.metacog.co.kr/#/note/05-daily~2026-08-12-cosign-sbom-signing)
+
+## Staying Current
+
+Vulnerability intake is part of this competency, not a side activity. [CuraSec](https://curasec.metacog.co.kr/)
+publishes daily security verdicts cross-referenced against CISA KEV, EPSS scores, and public PoC availability,
+split by audience (Engineers, SOC/IR, security leaders):
+
+- [🔥 Act](https://curasec.metacog.co.kr/verdict/act/) — active exploitation, critical CVEs, supply-chain compromises
+- [📌 Plan](https://curasec.metacog.co.kr/verdict/plan/) — important but schedulable this quarter
+- [📚 Learn](https://curasec.metacog.co.kr/verdict/learn/) — research and trend awareness
+- [Tags](https://curasec.metacog.co.kr/tags/) · [RSS](https://curasec.metacog.co.kr/index.xml)
+
+For the DevOps-side equivalent — releases, EOL dates and deprecation deadlines — see
+[CuraDevOps](https://curadevops.metacog.co.kr/) on the [Tools Landscape](../../tools) page.
