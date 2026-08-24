@@ -71,3 +71,9 @@ Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/prob
 - [The same query is fast on a fresh connection and slow forever after the fifth run](https://sols.metacog.co.kr/problems/the-same-query-is-fast-on-a-fresh-connection-and-slow-after-the-fifth-run/)
 - [Consumer lag grows for hours while every consumer is running and logging normally](https://sols.metacog.co.kr/problems/consumer-lag-grows-for-hours-while-the-consumers-look-healthy/)
 - [Every query on one table stopped, and the migration that caused it had not started yet](https://sols.metacog.co.kr/problems/every-query-on-one-table-stopped-and-the-migration-had-not-started-yet/)
+
+## Hands-On Labs
+
+Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
+
+- [FastAPI in MVC layers — one model serving both a JSON API and an HTML view](https://handson.metacog.co.kr/#/note/01-install~fastapi-mvc-layering)

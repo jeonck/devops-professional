@@ -60,3 +60,16 @@ If your infrastructure work still gets requested through a ticket, you're operat
 - "Designed a golden path for service provisioning that replaced manual infrastructure tickets, reducing ops ticket volume by 73% in two quarters."
 - "Converted database provisioning from a 3-day ticket-based process to a 10-minute self-service workflow, achieving 90% adoption across product teams."
 - "Ran quarterly DevEx surveys across 200+ engineers, raising platform satisfaction score from 5.8 to 8.4 by prioritizing roadmap items against direct user feedback."
+
+## Hands-On Labs
+
+Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
+
+- [PostgreSQL with CloudNativePG on the on-prem cluster — a metadata store on two schedulable nodes](https://handson.metacog.co.kr/#/note/01-install~postgresql-cnpg-onprem)
+- [Kafka with Strimzi in KRaft mode on the on-prem cluster — sized for two schedulable nodes](https://handson.metacog.co.kr/#/note/01-install~kafka-strimzi-onprem)
+- [Apache Spark on Kubernetes — batch jobs on two schedulable nodes](https://handson.metacog.co.kr/#/note/01-install~spark-on-k8s-onprem)
+- [Trino on a 2-node on-prem cluster — SQL over MinIO with Iceberg](https://handson.metacog.co.kr/#/note/01-install~trino-query-engine-onprem)
+- [Airflow 3 on a two-node on-prem cluster — the orchestrator for a data platform](https://handson.metacog.co.kr/#/note/01-install~airflow-orchestration-onprem)
+- [Dagster locally — software-defined assets, from pip install to a materialized pipeline](https://handson.metacog.co.kr/#/note/01-install~dagster-local-quickstart)
+- [dbt under Dagster — one lineage graph, and a failing test that stops the mart](https://handson.metacog.co.kr/#/note/01-install~dagster-dbt-integration)
+- [dbt with DuckDB locally — models, tests, and why `dbt build` is not `dbt run`](https://handson.metacog.co.kr/#/note/01-install~dbt-duckdb-local)

@@ -43,4 +43,5 @@ Each competency page is structured identically so you can compare across categor
   {{< card link="maturity-model" title="Maturity Model" subtitle="The Associate → Principal scale used across every competency" icon="academic-cap" >}}
   {{< card link="glossary" title="Glossary" subtitle="DORA, SLSA, SBOM, IDP and the other acronyms used throughout" icon="book-open" >}}
   {{< card link="https://sols.metacog.co.kr/problems/" title="Field Cases" subtitle="Real production failures with root cause and fix, linked from each competency" icon="fire" >}}
+  {{< card link="https://handson.metacog.co.kr/#/notes" title="Hands-On Labs" subtitle="Install guides, runbooks and playbooks that were actually run, linked from each competency" icon="terminal" >}}
 {{< /cards >}}

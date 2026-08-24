@@ -62,3 +62,13 @@ If your policy enforcement happens after a resource is already running in produc
 - "Built an OPA/Gatekeeper policy set that blocked 34 non-compliant Kubernetes manifests at PR time in its first quarter, preventing them from reaching production."
 - "Reduced manual/out-of-band infrastructure changes from 40% to under 5% by migrating networking and IAM provisioning into a fully codified pipeline."
 - "Published an internal Terraform module library adopted by 9 teams, cutting duplicate module code by roughly 70% across the organization."
+
+## Hands-On Labs
+
+Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
+
+- [Remote state — what a lock and an import actually do](https://handson.metacog.co.kr/#/note/02-runbook~terraform-remote-backend-lock-import)
+- [Terraform state surgery, rehearsed before you need it](https://handson.metacog.co.kr/#/note/02-runbook~terraform-state-operations)
+- [Packer without a cloud account — a real image build, and why two identical builds differ](https://handson.metacog.co.kr/#/note/01-install~packer-image-build-local)
+- [Packer on AWS — an AMI built, booted, curled, and deleted](https://handson.metacog.co.kr/#/note/01-install~packer-aws-ami)
+- [Topic of the day — OpenTofu 1.12's `destroy = false` and dynamic `prevent_destroy`](https://handson.metacog.co.kr/#/note/05-daily~2026-08-13-opentofu-lifecycle-destroy)

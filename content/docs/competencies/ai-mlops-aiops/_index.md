@@ -60,3 +60,14 @@ This is the newest competency in the framework, and it is no longer optional. Te
 - "Deployed an AI-assisted incident-triage workflow that cut mean time to initial diagnosis from 22 minutes to 7 minutes across 4 on-call rotations."
 - "Defined a mandatory-review guardrail policy for AI-generated pipeline changes that cut post-merge rework on AI-assisted PRs from 31% to 9%."
 - "Used Value Stream Management analysis to identify and remove AI-assisted code review at a stage where it was adding 15% rework, while expanding it at two stages where it cut lead time by 24%."
+
+## Hands-On Labs
+
+Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
+
+- [A Streamlit chat app on LiteLLM — one call signature, any provider](https://handson.metacog.co.kr/#/note/01-install~litellm-streamlit-chat)
+- [LangGraph — loops, branches, an approval gate, and a workflow that survives the process](https://handson.metacog.co.kr/#/note/01-install~langgraph-control-flow)
+- [smolagents — the agent writes Python, and one model call does three tool calls](https://handson.metacog.co.kr/#/note/01-install~smolagents-code-agents)
+- [DSPy — the prompt it writes for you, measured before and after compiling](https://handson.metacog.co.kr/#/note/01-install~dspy-prompt-optimization)
+- [Pydantic AI with Gemini — typed output, and the retry that enforces meaning](https://handson.metacog.co.kr/#/note/01-install~pydantic-ai-structured-output)
+- [MarkItDown — documents to Markdown, and the two failures that arrive silently](https://handson.metacog.co.kr/#/note/01-install~markitdown-document-to-markdown)

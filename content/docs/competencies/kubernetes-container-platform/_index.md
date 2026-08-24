@@ -70,3 +70,19 @@ Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/prob
 - [DNS lookups inside pods intermittently take exactly 5 seconds](https://sols.metacog.co.kr/problems/dns-lookups-intermittently-take-exactly-5-seconds/)
 - [Pods restart every few hours with nothing in the application log and the heap at 40%](https://sols.metacog.co.kr/problems/pods-restart-every-few-hours-with-nothing-in-the-application-log/)
 - [connect() fails with "cannot assign requested address" at peak, and the downstream is healthy](https://sols.metacog.co.kr/problems/connect-fails-with-cannot-assign-requested-address-at-peak/)
+
+## Hands-On Labs
+
+Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
+
+- [On-prem 3-node Kubernetes with kubeadm — from bare Ubuntu to a running pod](https://handson.metacog.co.kr/#/note/01-install~onprem-3node-kubeadm-ubuntu)
+- [MetalLB in L2 mode — real LoadBalancer services on an on-prem cluster](https://handson.metacog.co.kr/#/note/01-install~metallb-l2-onprem)
+- [ingress-nginx on one LAN address — HTTP routing for an on-prem cluster](https://handson.metacog.co.kr/#/note/01-install~ingress-nginx-onprem)
+- [Longhorn on an on-prem cluster — replicated block storage from node disks](https://handson.metacog.co.kr/#/note/01-install~longhorn-storage-onprem)
+- [Longhorn backup target — making snapshots into something that survives the cluster](https://handson.metacog.co.kr/#/note/01-install~longhorn-backup-target-onprem)
+- [cert-manager on-prem — certificates for hosts the internet cannot reach](https://handson.metacog.co.kr/#/note/01-install~cert-manager-onprem)
+- [Pin a fixed IP to a LoadBalancer service in a MetalLB environment](https://handson.metacog.co.kr/#/note/02-runbook~metallb-pin-loadbalancer-ip)
+- [Schedulable-node budget — sizing add-ons before you install them](https://handson.metacog.co.kr/#/note/02-runbook~schedulable-node-budget)
+- [Draining and replacing a production node](https://handson.metacog.co.kr/#/note/02-runbook~k8s-node-drain-replace)
+- [Topic of the day — in-place Pod resize goes GA in Kubernetes 1.35](https://handson.metacog.co.kr/#/note/05-daily~2026-08-14-inplace-pod-resize-ga)
+- [Topic of the day — from Ingress to Gateway API, a 30-minute lab on kind](https://handson.metacog.co.kr/#/note/05-daily~2026-08-07-gateway-api)

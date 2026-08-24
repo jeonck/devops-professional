@@ -59,3 +59,11 @@ The fastest way to spot a pipeline built by an amateur is to count how many time
 - "Built a reusable GitHub Actions workflow template adopted by 9 teams, eliminating duplicated pipeline logic and cutting new-service onboarding time from 2 days to 2 hours."
 - "Designed a dev-to-prod promotion workflow with automated policy gates, reducing releases requiring manual intervention from 35% to 6%."
 - "Raised pipeline success rate from 81% to 98% by replacing flaky integration tests with isolated, parallelized test suites and AI-assisted failure triage."
+
+## Hands-On Labs
+
+Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
+
+- [GitLab CI to Argo CD on-prem — a FastAPI service from commit to running pod](https://handson.metacog.co.kr/#/note/01-install~gitlab-ci-argocd-fastapi-onprem)
+- [GitLab CI to Argo CD FastAPI deployment — step-by-step procedure](https://handson.metacog.co.kr/#/note/02-runbook~gitlab-ci-argocd-fastapi-procedure)
+- [Bruno — a git-friendly REST client, from a request to a CI gate](https://handson.metacog.co.kr/#/note/04-reference~bruno-api-client)

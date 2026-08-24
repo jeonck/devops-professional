@@ -68,3 +68,9 @@ Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/prob
 
 - [A revoked account kept working for four hours, and nothing anywhere recorded a problem](https://sols.metacog.co.kr/problems/a-revoked-account-kept-working-for-four-hours/)
 - [TLS fails from every service, but the site loads fine in a browser](https://sols.metacog.co.kr/problems/tls-fails-from-services-but-the-site-loads-fine-in-a-browser/)
+
+## Hands-On Labs
+
+Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
+
+- [Topic of the day — signing an image and attesting its SBOM with cosign v3 and syft](https://handson.metacog.co.kr/#/note/05-daily~2026-08-12-cosign-sbom-signing)

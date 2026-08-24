@@ -68,3 +68,12 @@ Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/prob
 
 - [The fix is deployed, the rollout succeeded, and a third of requests still hit the old bug](https://sols.metacog.co.kr/problems/the-fix-is-deployed-and-a-third-of-requests-still-hit-the-old-bug/)
 - [Database CPU hits 100% for forty seconds, at a time that moves with each deploy](https://sols.metacog.co.kr/problems/database-cpu-hits-100-percent-for-forty-seconds-at-a-time-that-moves-with-each-deploy/)
+
+## Hands-On Labs
+
+Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
+
+- [Argo CD HA install with Helm — from empty cluster to first sync](https://handson.metacog.co.kr/#/note/01-install~argocd-helm-ha-install)
+- [Argo Rollouts — a canary deploy, its numbers, and recovering from a bad one](https://handson.metacog.co.kr/#/note/01-install~argo-rollouts-canary-kind)
+- [Topic of the day — canary rollouts with Argo Rollouts on top of Argo CD](https://handson.metacog.co.kr/#/note/05-daily~2026-08-10-argo-rollouts-canary)
+- [Topic of the day — mutual TLS for Argo CD's repo-server (new in 3.5)](https://handson.metacog.co.kr/#/note/05-daily~2026-08-15-argocd-repo-server-mtls)

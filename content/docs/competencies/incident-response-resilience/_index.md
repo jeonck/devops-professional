@@ -70,3 +70,9 @@ Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/prob
 - [Writes keep failing with "read-only transaction" long after the failover finished](https://sols.metacog.co.kr/problems/writes-keep-failing-with-read-only-transaction-after-failover/)
 - [The nightly reconciliation ran twice and both runs logged success](https://sols.metacog.co.kr/problems/the-nightly-reconciliation-ran-twice-and-both-runs-logged-success/)
 - [Intermittent 503s that hit the quiet endpoints and never the busy ones](https://sols.metacog.co.kr/problems/intermittent-503s-only-on-the-quiet-endpoints/)
+
+## Hands-On Labs
+
+Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
+
+- [Diagnosing CrashLoopBackOff — from exit code to cause](https://handson.metacog.co.kr/#/note/03-troubleshoot~pod-crashloopbackoff)

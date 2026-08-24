@@ -69,3 +69,14 @@ Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/prob
 - [All dashboards developed gaps and Prometheus restarted every twenty minutes](https://sols.metacog.co.kr/problems/all-dashboards-developed-gaps-and-prometheus-restarted-every-twenty-minutes/)
 - [p99 latency spikes to 400ms while CPU utilisation sits at 30%](https://sols.metacog.co.kr/problems/p99-latency-spikes-while-cpu-utilisation-sits-at-30-percent/)
 - [Every query got slower during business hours and recovered overnight, for three weeks](https://sols.metacog.co.kr/problems/every-query-got-slower-during-business-hours-and-recovered-overnight/)
+
+## Hands-On Labs
+
+Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
+
+- [Prometheus — instrumenting a service, and three queries that lie if you read them wrong](https://handson.metacog.co.kr/#/note/01-install~prometheus-instrument-and-query)
+- [Grafana — wiring metrics, logs and traces together so one ID walks between them](https://handson.metacog.co.kr/#/note/01-install~grafana-correlate-three-signals)
+- [Loki — logs you can query, and the one label that multiplies your streams by 25](https://handson.metacog.co.kr/#/note/01-install~loki-logs-labels-and-cardinality)
+- [OpenTelemetry tracing — one trace across two services, and where the 420ms actually went](https://handson.metacog.co.kr/#/note/01-install~opentelemetry-tracing-two-services)
+- [OpenSearch — a single node, and the range query that quietly lies](https://handson.metacog.co.kr/#/note/01-install~opensearch-mappings-and-templates)
+- [Topic of the day — Prometheus 3.13 LTS, a self-scrape lab and the new min_of()/max_of()](https://handson.metacog.co.kr/#/note/05-daily~2026-08-11-prometheus-3-13-lts)

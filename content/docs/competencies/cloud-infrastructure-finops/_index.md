@@ -68,3 +68,11 @@ The fastest way to lose credibility with a platform or SRE leadership team is to
 Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/problems/) that exercise this competency:
 
 - [df says the disk is full, du says it is half empty](https://sols.metacog.co.kr/problems/df-says-the-disk-is-full-du-says-it-is-half-empty/)
+
+## Hands-On Labs
+
+Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
+
+- [S3-compatible object storage for this cluster — MinIO, Ceph and Garage](https://handson.metacog.co.kr/#/note/04-reference~s3-object-storage-options)
+- [MinIO on an on-prem cluster — S3-compatible object storage on two schedulable nodes](https://handson.metacog.co.kr/#/note/01-install~minio-object-storage-onprem)
+- [Garage on the on-prem cluster — an S3 endpoint that fits two nodes](https://handson.metacog.co.kr/#/note/01-install~garage-object-storage-onprem)
