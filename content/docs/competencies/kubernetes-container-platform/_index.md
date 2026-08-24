@@ -82,6 +82,7 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [Longhorn backup target — making snapshots into something that survives the cluster](https://handson.metacog.co.kr/#/note/01-install~longhorn-backup-target-onprem)
 - [cert-manager on-prem — certificates for hosts the internet cannot reach](https://handson.metacog.co.kr/#/note/01-install~cert-manager-onprem)
 - [Pin a fixed IP to a LoadBalancer service in a MetalLB environment](https://handson.metacog.co.kr/#/note/02-runbook~metallb-pin-loadbalancer-ip)
+- [Assign a fixed IP to the ingress controller in a MetalLB environment](https://handson.metacog.co.kr/#/note/06-archive~assign-fixed-ip-ingress-controller-metallb)
 - [Schedulable-node budget — sizing add-ons before you install them](https://handson.metacog.co.kr/#/note/02-runbook~schedulable-node-budget)
 - [Draining and replacing a production node](https://handson.metacog.co.kr/#/note/02-runbook~k8s-node-drain-replace)
 - [Topic of the day — in-place Pod resize goes GA in Kubernetes 1.35](https://handson.metacog.co.kr/#/note/05-daily~2026-08-14-inplace-pod-resize-ga)

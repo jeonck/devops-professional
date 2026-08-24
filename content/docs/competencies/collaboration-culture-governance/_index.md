@@ -62,3 +62,12 @@ A practice that only lives in your head or your team's Slack channel doesn't sca
 - "Wrote and drove adoption of an ADR process now followed by 9 engineering teams, reducing repeated architectural debates by an estimated 70%."
 - "Redesigned the security review workflow between development and security teams, cutting average review wait time from 6 business days to 1."
 - "Led evidence coordination for a SOC 2 Type II audit across 5 teams, reducing total audit response time from 4 weeks to 9 business days."
+
+## Hands-On Labs
+
+How the [handson](https://handson.metacog.co.kr/#/notes) practice itself is run — the scope it commits to, and the weekly review that turns scattered field notes into a record worth keeping:
+
+- [Topic scope — what gets written down, and what does not](https://handson.metacog.co.kr/#/note/04-reference~topics)
+- [Weekly review 2026-08-22](https://handson.metacog.co.kr/#/note/05-daily~2026-08-22-weekly)
+- [Weekly review 2026-08-15](https://handson.metacog.co.kr/#/note/05-daily~2026-08-15-weekly)
+- [Weekly review 2026-08-08](https://handson.metacog.co.kr/#/note/05-daily~2026-08-08-weekly)
