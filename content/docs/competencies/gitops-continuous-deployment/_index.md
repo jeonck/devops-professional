@@ -77,3 +77,9 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [Argo Rollouts — a canary deploy, its numbers, and recovering from a bad one](https://handson.metacog.co.kr/#/note/01-install~argo-rollouts-canary-kind)
 - [Topic of the day — canary rollouts with Argo Rollouts on top of Argo CD](https://handson.metacog.co.kr/#/note/05-daily~2026-08-10-argo-rollouts-canary)
 - [Topic of the day — mutual TLS for Argo CD's repo-server (new in 3.5)](https://handson.metacog.co.kr/#/note/05-daily~2026-08-15-argocd-repo-server-mtls)
+
+## Checklists
+
+Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
+
+- [Release Day Runbook](https://checklists.metacog.co.kr/docs/devops/release-day/)

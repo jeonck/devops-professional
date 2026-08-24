@@ -87,3 +87,9 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [Draining and replacing a production node](https://handson.metacog.co.kr/#/note/02-runbook~k8s-node-drain-replace)
 - [Topic of the day — in-place Pod resize goes GA in Kubernetes 1.35](https://handson.metacog.co.kr/#/note/05-daily~2026-08-14-inplace-pod-resize-ga)
 - [Topic of the day — from Ingress to Gateway API, a 30-minute lab on kind](https://handson.metacog.co.kr/#/note/05-daily~2026-08-07-gateway-api)
+
+## Checklists
+
+Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
+
+- [Kubernetes Deployment](https://checklists.metacog.co.kr/docs/devops/kubernetes-deployment/)

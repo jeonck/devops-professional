@@ -45,5 +45,6 @@ Each competency page is structured identically so you can compare across categor
   {{< card link="https://sols.metacog.co.kr/problems/" title="Field Cases" subtitle="Real production failures with root cause and fix, linked from each competency" icon="fire" >}}
   {{< card link="https://handson.metacog.co.kr/#/notes" title="Hands-On Labs" subtitle="Install guides, runbooks and playbooks that were actually run, linked from each competency" icon="terminal" >}}
   {{< card link="https://automations.metacog.co.kr/docs/case-studies/" title="Automation Case Studies" subtitle="Automation patterns and incidents from across the industry, linked from each competency" icon="library" >}}
+  {{< card link="https://checklists.metacog.co.kr/docs/" title="Checklists" subtitle="Production readiness, release day, incident and on-call lists, linked from each competency" icon="clipboard-check" >}}
   {{< card link="https://curadevops.metacog.co.kr/" title="Daily Curation" subtitle="CuraDevOps and CuraSec — daily Act / Plan / Learn verdicts on DevOps and security signals" icon="rss" >}}
 {{< /cards >}}

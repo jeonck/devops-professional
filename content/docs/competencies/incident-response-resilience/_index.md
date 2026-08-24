@@ -82,3 +82,12 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 Industry patterns and incident write-ups from [IT Automation](https://automations.metacog.co.kr/docs/case-studies/) that show this competency at work across organizations:
 
 - [Chaos Engineering as a Reliability Practice](https://automations.metacog.co.kr/docs/case-studies/chaos-engineering/)
+
+## Checklists
+
+Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
+
+- [Incident Management](https://checklists.metacog.co.kr/docs/operations/incident-management/)
+- [On-Call Handover](https://checklists.metacog.co.kr/docs/operations/on-call-handover/)
+- [Postmortem](https://checklists.metacog.co.kr/docs/operations/postmortem/)
+- [Backup and Recovery](https://checklists.metacog.co.kr/docs/operations/backup-and-recovery/)

@@ -88,3 +88,9 @@ split by audience (Engineers, SOC/IR, security leaders):
 
 For the DevOps-side equivalent — releases, EOL dates and deprecation deadlines — see
 [CuraDevOps](https://curadevops.metacog.co.kr/) on the [Tools Landscape](../../tools) page.
+
+## Checklists
+
+Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
+
+- [Container Image Hardening](https://checklists.metacog.co.kr/docs/devops/container-image/)

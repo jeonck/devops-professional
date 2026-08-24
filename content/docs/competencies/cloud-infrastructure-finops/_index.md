@@ -76,3 +76,9 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [S3-compatible object storage for this cluster — MinIO, Ceph and Garage](https://handson.metacog.co.kr/#/note/04-reference~s3-object-storage-options)
 - [MinIO on an on-prem cluster — S3-compatible object storage on two schedulable nodes](https://handson.metacog.co.kr/#/note/01-install~minio-object-storage-onprem)
 - [Garage on the on-prem cluster — an S3 endpoint that fits two nodes](https://handson.metacog.co.kr/#/note/01-install~garage-object-storage-onprem)
+
+## Checklists
+
+Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
+
+- [Capacity Planning](https://checklists.metacog.co.kr/docs/operations/capacity-planning/)

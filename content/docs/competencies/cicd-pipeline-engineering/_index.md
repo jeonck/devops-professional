@@ -67,3 +67,9 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [GitLab CI to Argo CD on-prem — a FastAPI service from commit to running pod](https://handson.metacog.co.kr/#/note/01-install~gitlab-ci-argocd-fastapi-onprem)
 - [GitLab CI to Argo CD FastAPI deployment — step-by-step procedure](https://handson.metacog.co.kr/#/note/02-runbook~gitlab-ci-argocd-fastapi-procedure)
 - [Bruno — a git-friendly REST client, from a request to a CI gate](https://handson.metacog.co.kr/#/note/04-reference~bruno-api-client)
+
+## Checklists
+
+Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
+
+- [CI/CD Pipeline Review](https://checklists.metacog.co.kr/docs/devops/cicd-pipeline/)

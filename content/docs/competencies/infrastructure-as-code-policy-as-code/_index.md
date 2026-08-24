@@ -72,3 +72,9 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [Packer without a cloud account — a real image build, and why two identical builds differ](https://handson.metacog.co.kr/#/note/01-install~packer-image-build-local)
 - [Packer on AWS — an AMI built, booted, curled, and deleted](https://handson.metacog.co.kr/#/note/01-install~packer-aws-ami)
 - [Topic of the day — OpenTofu 1.12's `destroy = false` and dynamic `prevent_destroy`](https://handson.metacog.co.kr/#/note/05-daily~2026-08-13-opentofu-lifecycle-destroy)
+
+## Checklists
+
+Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
+
+- [Infrastructure as Code Review](https://checklists.metacog.co.kr/docs/devops/infrastructure-as-code/)
