@@ -77,7 +77,7 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 
 - [Diagnosing CrashLoopBackOff — from exit code to cause](https://handson.metacog.co.kr/#/note/03-troubleshoot~pod-crashloopbackoff)
 
-## Case Studies
+## Automation Case Studies
 
 Industry patterns and incident write-ups from [IT Automation](https://automations.metacog.co.kr/docs/case-studies/) that show this competency at work across organizations:
 

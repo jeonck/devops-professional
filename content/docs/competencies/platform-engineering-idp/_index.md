@@ -74,7 +74,7 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [dbt under Dagster — one lineage graph, and a failing test that stops the mart](https://handson.metacog.co.kr/#/note/01-install~dagster-dbt-integration)
 - [dbt with DuckDB locally — models, tests, and why `dbt build` is not `dbt run`](https://handson.metacog.co.kr/#/note/01-install~dbt-duckdb-local)
 
-## Case Studies
+## Automation Case Studies
 
 Industry patterns and incident write-ups from [IT Automation](https://automations.metacog.co.kr/docs/case-studies/) that show this competency at work across organizations:
 
