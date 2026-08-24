@@ -61,3 +61,10 @@ A vulnerability scanner that only produces a report nobody acts on is security t
 - "Achieved 100% artifact signing coverage for production container images, blocking 100% of unsigned deploy attempts at the cluster admission layer."
 - "Rolled out SBOM generation for 30+ production services, cutting dependency-incident triage time from 2 days to under 4 hours."
 - "Implemented automated secrets rotation across 12 production credentials, raising rotation compliance from 40% to 98% within one quarter."
+
+## Field Cases
+
+Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/problems/) that exercise this competency:
+
+- [A revoked account kept working for four hours, and nothing anywhere recorded a problem](https://sols.metacog.co.kr/problems/a-revoked-account-kept-working-for-four-hours/)
+- [TLS fails from every service, but the site loads fine in a browser](https://sols.metacog.co.kr/problems/tls-fails-from-services-but-the-site-loads-fine-in-a-browser/)

@@ -61,3 +61,10 @@ The real test of GitOps maturity isn't whether you run Argo CD or Flux — it's 
 - "Designed a Kustomize overlay structure across 3 environments that reduced environment-specific deployment errors by 80% over two quarters."
 - "Resolved a production drift incident caused by an out-of-band hotfix by re-establishing Git as the single source of truth, then enforced self-heal sync policy across 9 namespaces to prevent recurrence."
 - "Built an app-of-apps topology managing 40+ microservices across 5 clusters, achieving 99% sync success rate with zero manual interventions in 6 months."
+
+## Field Cases
+
+Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/problems/) that exercise this competency:
+
+- [The fix is deployed, the rollout succeeded, and a third of requests still hit the old bug](https://sols.metacog.co.kr/problems/the-fix-is-deployed-and-a-third-of-requests-still-hit-the-old-bug/)
+- [Database CPU hits 100% for forty seconds, at a time that moves with each deploy](https://sols.metacog.co.kr/problems/database-cpu-hits-100-percent-for-forty-seconds-at-a-time-that-moves-with-each-deploy/)

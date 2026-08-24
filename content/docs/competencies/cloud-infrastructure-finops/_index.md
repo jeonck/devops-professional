@@ -62,3 +62,9 @@ The fastest way to lose credibility with a platform or SRE leadership team is to
 - "Designed and enforced a tagging policy that raised cost allocation compliance from 54% to 98% across 12 engineering teams."
 - "Increased committed-use coverage from 30% to 75% through a Reserved Instance and Savings Plan portfolio review, reducing on-demand spend by 28%."
 - "Configured cost anomaly alerts that flagged a misconfigured autoscaling group within 4 hours, preventing an estimated $18,000 in unnecessary spend."
+
+## Field Cases
+
+Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/problems/) that exercise this competency:
+
+- [df says the disk is full, du says it is half empty](https://sols.metacog.co.kr/problems/df-says-the-disk-is-full-du-says-it-is-half-empty/)

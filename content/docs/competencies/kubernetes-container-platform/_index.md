@@ -62,3 +62,11 @@ The interview question that separates real operators from tutorial-followers isn
 - "Led a zero-downtime Kubernetes major version upgrade across 8 production clusters, reducing total upgrade window from 3 days to 6 hours."
 - "Tuned HPA and Karpenter-based cluster autoscaling to cut average scale-up reaction time from 4 minutes to 45 seconds during traffic spikes."
 - "Migrated mesh traffic policy enforcement from sidecar-based Istio to Cilium's eBPF dataplane, reducing per-request latency overhead from 8ms to under 1ms."
+
+## Field Cases
+
+Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/problems/) that exercise this competency:
+
+- [DNS lookups inside pods intermittently take exactly 5 seconds](https://sols.metacog.co.kr/problems/dns-lookups-intermittently-take-exactly-5-seconds/)
+- [Pods restart every few hours with nothing in the application log and the heap at 40%](https://sols.metacog.co.kr/problems/pods-restart-every-few-hours-with-nothing-in-the-application-log/)
+- [connect() fails with "cannot assign requested address" at peak, and the downstream is healthy](https://sols.metacog.co.kr/problems/connect-fails-with-cannot-assign-requested-address-at-peak/)

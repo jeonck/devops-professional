@@ -60,3 +60,12 @@ A pile of dashboards is not observability — it's an admission that nobody deci
 - "Cut non-actionable alert volume by 68% through multi-burn-rate SLO alerting, lowering on-call pages per engineer from 14/week to 4/week."
 - "Defined and enforced an error-budget policy that blocked 3 risky releases in one quarter, holding SLO attainment above 99.5% for the core checkout path."
 - "Drove OpenTelemetry instrumentation coverage from 35% to 92% of production services, making trace-based root-cause analysis the default incident workflow."
+
+## Field Cases
+
+Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/problems/) that exercise this competency:
+
+- [A 40-minute outage passed with no alert, and the error-rate panel showed a flat line](https://sols.metacog.co.kr/problems/a-40-minute-outage-passed-with-no-alert/)
+- [All dashboards developed gaps and Prometheus restarted every twenty minutes](https://sols.metacog.co.kr/problems/all-dashboards-developed-gaps-and-prometheus-restarted-every-twenty-minutes/)
+- [p99 latency spikes to 400ms while CPU utilisation sits at 30%](https://sols.metacog.co.kr/problems/p99-latency-spikes-while-cpu-utilisation-sits-at-30-percent/)
+- [Every query got slower during business hours and recovered overnight, for three weeks](https://sols.metacog.co.kr/problems/every-query-got-slower-during-business-hours-and-recovered-overnight/)
