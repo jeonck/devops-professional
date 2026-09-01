@@ -81,7 +81,6 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [Longhorn on an on-prem cluster — replicated block storage from node disks](https://handson.metacog.co.kr/#/note/01-install~longhorn-storage-onprem)
 - [Longhorn backup target — making snapshots into something that survives the cluster](https://handson.metacog.co.kr/#/note/01-install~longhorn-backup-target-onprem)
 - [cert-manager on-prem — certificates for hosts the internet cannot reach](https://handson.metacog.co.kr/#/note/01-install~cert-manager-onprem)
-- [Talos Linux — a Kubernetes node with no shell, and four things that stop it locally](https://handson.metacog.co.kr/#/note/01-install~talos-kubernetes-local-cluster)
 - [Pin a fixed IP to a LoadBalancer service in a MetalLB environment](https://handson.metacog.co.kr/#/note/02-runbook~metallb-pin-loadbalancer-ip)
 - [Assign a fixed IP to the ingress controller in a MetalLB environment](https://handson.metacog.co.kr/#/note/06-archive~assign-fixed-ip-ingress-controller-metallb)
 - [Schedulable-node budget — sizing add-ons before you install them](https://handson.metacog.co.kr/#/note/02-runbook~schedulable-node-budget)
