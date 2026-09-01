@@ -59,6 +59,13 @@ jobs:
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
+      - name: Trigger the Pages deploy
+        # a push made with GITHUB_TOKEN does not start other workflows on its own
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yaml --ref main
+
       - name: Report by issue when nothing was linked
         if: steps.sweep.outputs.has_new == 'true' && steps.commit.outputs.changed != 'true'
         env:
