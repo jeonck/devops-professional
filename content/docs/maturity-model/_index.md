@@ -32,3 +32,8 @@ A Principal-level engineer in one competency can be an Associate in another — 
   {{< card link="../competencies" title="Browse the 13 Competencies" subtitle="See category-specific maturity tables and proof statements" icon="collection" >}}
   {{< card link="../glossary" title="Glossary" subtitle="Acronyms and frameworks referenced throughout this playbook" icon="book-open" >}}
 {{< /cards >}}
+
+## Related
+
+- [The Automation Maturity Model](https://automations.metacog.co.kr/docs/foundations/maturity-model/) — the same Associate-to-Principal idea applied to an organization's automation practice rather than to a person
+- [Reference Library](../references) — every sibling site this playbook draws on

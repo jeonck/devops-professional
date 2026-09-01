@@ -1,0 +1,70 @@
+name: Daily link sweep
+
+on:
+  schedule:
+    # 02:00 CDT (America/Chicago, UTC-5) — the same slot the release board collects on
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: link-sweep
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Find unlinked content on the sibling sites
+        id: sweep
+        run: |
+          python3 scripts/check-new-links.py --report report.md
+          if [ -s report.md ]; then echo "has_new=true" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Setup Hugo
+        if: steps.sweep.outputs.has_new == 'true' && env.ANTHROPIC_API_KEY != ''
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Let Claude place the new links
+        if: steps.sweep.outputs.has_new == 'true' && env.ANTHROPIC_API_KEY != ''
+        run: |
+          npx -y @anthropic-ai/claude-code@latest \
+            -p "$(cat scripts/link-sweep-prompt.md)" \
+            --permission-mode acceptEdits \
+            --allowedTools "Read,Edit,Write,Grep,Glob,Bash(hugo:*)"
+
+      - name: Commit
+        id: commit
+        if: steps.sweep.outputs.has_new == 'true'
+        run: |
+          rm -rf report.md public resources/_gen
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Link new sibling-site content (daily sweep)"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Report by issue when nothing was linked
+        if: steps.sweep.outputs.has_new == 'true' && steps.commit.outputs.changed != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/check-new-links.py --report report.md
+          gh issue create \
+            --title "Unlinked sibling-site content ($(date -u +%Y-%m-%d))" \
+            --body-file report.md
