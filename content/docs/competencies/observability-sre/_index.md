@@ -70,6 +70,8 @@ Real incident write-ups from [ICT Problem Notes](https://fieldcases.metacog.co.k
 - [p99 latency spikes to 400ms while CPU utilisation sits at 30%](https://fieldcases.metacog.co.kr/problems/p99-latency-spikes-while-cpu-utilisation-sits-at-30-percent)
 - [Every query got slower during business hours and recovered overnight, for three weeks](https://fieldcases.metacog.co.kr/problems/every-query-got-slower-during-business-hours-and-recovered-overnight)
 
+**The mechanisms behind them** — [Absent data is not zero](https://fieldcases.metacog.co.kr/concepts/absent-data-is-not-zero) · [Metric cardinality](https://fieldcases.metacog.co.kr/concepts/metric-cardinality)
+
 ## Hands-On Labs
 
 Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:

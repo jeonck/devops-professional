@@ -69,6 +69,8 @@ Real incident write-ups from [ICT Problem Notes](https://fieldcases.metacog.co.k
 
 - [df says the disk is full, du says it is half empty](https://fieldcases.metacog.co.kr/problems/df-says-the-disk-is-full-du-says-it-is-half-empty)
 
+**The mechanisms behind them** — [Unlinked open files](https://fieldcases.metacog.co.kr/concepts/unlinked-open-files) · [Burst credits](https://fieldcases.metacog.co.kr/concepts/burst-credits)
+
 ## Hands-On Labs
 
 Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:

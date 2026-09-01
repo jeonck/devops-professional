@@ -71,6 +71,8 @@ Real incident write-ups from [ICT Problem Notes](https://fieldcases.metacog.co.k
 - [The nightly reconciliation ran twice and both runs logged success](https://fieldcases.metacog.co.kr/problems/the-nightly-reconciliation-ran-twice-and-both-runs-logged-success)
 - [Intermittent 503s that hit the quiet endpoints and never the busy ones](https://fieldcases.metacog.co.kr/problems/intermittent-503s-only-on-the-quiet-endpoints)
 
+**The mechanisms behind them** — [Retry amplification](https://fieldcases.metacog.co.kr/concepts/retry-amplification) · [Idle timeout ordering](https://fieldcases.metacog.co.kr/concepts/idle-timeout-ordering) · [Wall-clock schedules and DST](https://fieldcases.metacog.co.kr/concepts/wall-clock-schedules)
+
 ## Hands-On Labs
 
 Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:

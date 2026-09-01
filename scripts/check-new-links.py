@@ -22,7 +22,7 @@ SITEMAP_SOURCES = [
     ("IT Template Library", "https://templates.metacog.co.kr/sitemap.xml",
      r"/docs/[a-z-]+/[a-z0-9-]+/$"),
     ("Field Cases", "https://fieldcases.metacog.co.kr/sitemap.xml",
-     r"/problems/[a-z0-9-]+$"),
+     r"/(problems|concepts)/[a-z0-9-]+$"),
     ("Pipeline Field Guide", "https://jeonck.github.io/pipelines/sitemap.xml",
      r"/(docs/[a-z0-9-]+|diagrams)/$"),
     # catalogues: watch for new *sections* only, their per-item pages are linked in bulk

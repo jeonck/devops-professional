@@ -69,6 +69,8 @@ Real incident write-ups from [ICT Problem Notes](https://fieldcases.metacog.co.k
 - [A revoked account kept working for four hours, and nothing anywhere recorded a problem](https://fieldcases.metacog.co.kr/problems/a-revoked-account-kept-working-for-four-hours)
 - [TLS fails from every service, but the site loads fine in a browser](https://fieldcases.metacog.co.kr/problems/tls-fails-from-services-but-the-site-loads-fine-in-a-browser)
 
+**The mechanisms behind them** — [Certificate chains and trust stores](https://fieldcases.metacog.co.kr/concepts/certificate-chains) · [Revocation latency](https://fieldcases.metacog.co.kr/concepts/revocation-latency) · [Image tags and digests](https://fieldcases.metacog.co.kr/concepts/image-tags-and-digests)
+
 ## Hands-On Labs
 
 Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:

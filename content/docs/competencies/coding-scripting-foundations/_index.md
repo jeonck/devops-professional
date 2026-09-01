@@ -72,6 +72,8 @@ Real incident write-ups from [ICT Problem Notes](https://fieldcases.metacog.co.k
 - [Consumer lag grows for hours while every consumer is running and logging normally](https://fieldcases.metacog.co.kr/problems/consumer-lag-grows-for-hours-while-the-consumers-look-healthy)
 - [Every query on one table stopped, and the migration that caused it had not started yet](https://fieldcases.metacog.co.kr/problems/every-query-on-one-table-stopped-and-the-migration-had-not-started-yet)
 
+**The mechanisms behind them** — [Connection pooling modes](https://fieldcases.metacog.co.kr/concepts/connection-pooling-modes) · [Custom plans and generic plans](https://fieldcases.metacog.co.kr/concepts/generic-plans) · [Lock queues](https://fieldcases.metacog.co.kr/concepts/lock-queues) · [Cache stampede](https://fieldcases.metacog.co.kr/concepts/cache-stampede) · [Consumer group rebalancing](https://fieldcases.metacog.co.kr/concepts/consumer-group-rebalancing)
+
 ## Hands-On Labs
 
 Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:

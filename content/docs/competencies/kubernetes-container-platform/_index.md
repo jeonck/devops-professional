@@ -71,6 +71,8 @@ Real incident write-ups from [ICT Problem Notes](https://fieldcases.metacog.co.k
 - [Pods restart every few hours with nothing in the application log and the heap at 40%](https://fieldcases.metacog.co.kr/problems/pods-restart-every-few-hours-with-nothing-in-the-application-log)
 - [connect() fails with "cannot assign requested address" at peak, and the downstream is healthy](https://fieldcases.metacog.co.kr/problems/connect-fails-with-cannot-assign-requested-address-at-peak)
 
+**The mechanisms behind them** — [DNS caching layers](https://fieldcases.metacog.co.kr/concepts/dns-caching-layers) · [CFS quota throttling](https://fieldcases.metacog.co.kr/concepts/cfs-quota-throttling) · [A container limit is not a heap limit](https://fieldcases.metacog.co.kr/concepts/jvm-native-memory) · [conntrack](https://fieldcases.metacog.co.kr/concepts/conntrack) · [Ephemeral ports and TIME_WAIT](https://fieldcases.metacog.co.kr/concepts/ephemeral-ports-and-time-wait)
+
 ## Hands-On Labs
 
 Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
