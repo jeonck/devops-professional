@@ -79,13 +79,6 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 
 - [Diagnosing CrashLoopBackOff — from exit code to cause](https://handson.metacog.co.kr/#/note/03-troubleshoot~pod-crashloopbackoff)
 
-## Automation Case Studies
-
-Industry patterns and incident write-ups from [IT Automation](https://automations.metacog.co.kr/docs/case-studies/) that show this competency at work across organizations:
-
-- [Chaos Engineering as a Reliability Practice](https://automations.metacog.co.kr/docs/case-studies/chaos-engineering/)
-- [Two Stacks, One Notification Layer](https://automations.metacog.co.kr/docs/case-studies/two-stacks-one-notification-layer/)
-
 ## Checklists
 
 Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
@@ -94,6 +87,13 @@ Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/
 - [On-Call Handover](https://checklists.metacog.co.kr/docs/operations/on-call-handover/)
 - [Postmortem](https://checklists.metacog.co.kr/docs/operations/postmortem/)
 - [Backup and Recovery](https://checklists.metacog.co.kr/docs/operations/backup-and-recovery/)
+
+## Automation Case Studies
+
+Industry patterns and incident write-ups from [IT Automation](https://automations.metacog.co.kr/docs/case-studies/) that show this competency at work across organizations:
+
+- [Chaos Engineering as a Reliability Practice](https://automations.metacog.co.kr/docs/case-studies/chaos-engineering/)
+- [Two Stacks, One Notification Layer](https://automations.metacog.co.kr/docs/case-studies/two-stacks-one-notification-layer/)
 
 ## Reference Library
 

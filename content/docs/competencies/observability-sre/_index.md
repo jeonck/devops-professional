@@ -84,19 +84,19 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [Topic of the day — Prometheus 3.13 LTS, a self-scrape lab and the new min_of()/max_of()](https://handson.metacog.co.kr/#/note/05-daily~2026-08-11-prometheus-3-13-lts)
 - [SLOs and error budgets — burn-rate alerts that page once, and the SLI that records nothing](https://handson.metacog.co.kr/#/note/01-install~slo-error-budget-burn-rate)
 
-## Automation Case Studies
-
-Industry patterns and incident write-ups from [IT Automation](https://automations.metacog.co.kr/docs/case-studies/) that show this competency at work across organizations:
-
-- [Error Budgets and the SRE Model](https://automations.metacog.co.kr/docs/case-studies/error-budgets/)
-- [The Alert That Never Fired](https://automations.metacog.co.kr/docs/case-studies/silent-alerts/)
-
 ## Checklists
 
 Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
 
 - [Observability](https://checklists.metacog.co.kr/docs/operations/observability/)
 - [Production Readiness Review](https://checklists.metacog.co.kr/docs/devops/production-readiness/)
+
+## Automation Case Studies
+
+Industry patterns and incident write-ups from [IT Automation](https://automations.metacog.co.kr/docs/case-studies/) that show this competency at work across organizations:
+
+- [Error Budgets and the SRE Model](https://automations.metacog.co.kr/docs/case-studies/error-budgets/)
+- [The Alert That Never Fired](https://automations.metacog.co.kr/docs/case-studies/silent-alerts/)
 
 ## Reference Library
 

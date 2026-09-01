@@ -79,6 +79,12 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [Vault — rotating a password without redeploying, and the two you rotated away that still work](https://handson.metacog.co.kr/#/note/01-install~vault-secrets-rotation)
 - [Harbor on Apple Silicon — three fixable failures, then one that is not](https://handson.metacog.co.kr/#/note/03-troubleshoot~harbor-installer-on-podman-arm64)
 
+## Checklists
+
+Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
+
+- [Container Image Hardening](https://checklists.metacog.co.kr/docs/devops/container-image/)
+
 ## Staying Current
 
 Vulnerability intake is part of this competency, not a side activity. [CuraSec](https://curasec.metacog.co.kr/)
@@ -92,12 +98,6 @@ split by audience (Engineers, SOC/IR, security leaders):
 
 For the DevOps-side equivalent — releases, EOL dates and deprecation deadlines — see
 [CuraDevOps](https://curadevops.metacog.co.kr/) on the [Tools Landscape](../../tools) page.
-
-## Checklists
-
-Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
-
-- [Container Image Hardening](https://checklists.metacog.co.kr/docs/devops/container-image/)
 
 ## Reference Library
 
