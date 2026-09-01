@@ -158,6 +158,11 @@ Not every useful tool comes from a foundation or a vendor. This section collects
 | [ctop](https://github.com/bcicen/ctop) | Top-like terminal dashboard for container metrics — CPU, memory, network, and I/O per container, plus a single-container drill-down view | A solo-maintained (bcicen), zero-dependency way to answer "which container is eating this host" without wiring up a full metrics stack. Related: [Observability & SRE](../competencies/observability-sre) |
 | [kubectx / kubens](https://github.com/ahmetb/kubectx) | Fast CLI switcher for kubectl contexts and namespaces, with fuzzy interactive selection | Built by Ahmet Alp Balkan; one of the most-installed single-purpose kubectl companions — eliminates the `--context`/`--namespace` typos that cause "why did I just apply that to prod" moments. Related: [Kubernetes & Container Platform Operations](../competencies/kubernetes-container-platform) |
 
+For the wider catalogue — 140+ practitioner tools indexed by category — see
+[Toolian](https://toolian.metacog.co.kr/), starting with [DevOps](https://toolian.metacog.co.kr/docs/devops/),
+[Observability](https://toolian.metacog.co.kr/docs/observability/), [Security](https://toolian.metacog.co.kr/docs/security/)
+and [Automation](https://toolian.metacog.co.kr/docs/automation/).
+
 ## Staying Current
 
 A tool landscape goes stale the moment it's published. These two daily curation feeds track the signals that
@@ -168,6 +173,8 @@ attach a verdict to each item instead of dumping a link list.
 |---|---|---|
 | [CuraDevOps](https://curadevops.metacog.co.kr/) | DevOps and platform signals: releases, EOL and deprecation deadlines, capability launches, with role-specific guidance for Platform/SRE, CI/CD, and engineering leaders | [🔥 Act](https://curadevops.metacog.co.kr/verdict/act/) now · [📌 Plan](https://curadevops.metacog.co.kr/verdict/plan/) this quarter · [📚 Learn](https://curadevops.metacog.co.kr/verdict/learn/) when you have time · [RSS](https://curadevops.metacog.co.kr/index.xml) |
 | [CuraSec](https://curasec.metacog.co.kr/) | Security signals cross-referenced against CISA KEV, EPSS scores, and public PoC availability, with guidance split for Engineers, SOC/IR, and security leaders | [🔥 Act](https://curasec.metacog.co.kr/verdict/act/) now · [📌 Plan](https://curasec.metacog.co.kr/verdict/plan/) this quarter · [📚 Learn](https://curasec.metacog.co.kr/verdict/learn/) when you have time · [RSS](https://curasec.metacog.co.kr/index.xml) |
+| [OSS Insights](https://oss.metacog.co.kr/) | Open-source releases, new projects and the discussions around them, scored the same way | [🔥 Act](https://oss.metacog.co.kr/verdict/) now · [Insights](https://oss.metacog.co.kr/insights/) feed · [RSS](https://oss.metacog.co.kr/index.xml) |
+| [Release Board](https://rel-mgmt.metacog.co.kr/) | A nightly sweep of releases, end-of-life schedules and per-version CVEs across 99 products, collapsed into one verdict each | **GO / HOLD / NO-GO** per product — the answer to "is this version safe to move to" |
 
 {{< callout type="info" >}}
 The **Act** lane is the one that belongs in your backlog, not your reading list — a KEV-listed CVE in your base

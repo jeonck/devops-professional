@@ -76,9 +76,16 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [S3-compatible object storage for this cluster — MinIO, Ceph and Garage](https://handson.metacog.co.kr/#/note/04-reference~s3-object-storage-options)
 - [MinIO on an on-prem cluster — S3-compatible object storage on two schedulable nodes](https://handson.metacog.co.kr/#/note/01-install~minio-object-storage-onprem)
 - [Garage on the on-prem cluster — an S3 endpoint that fits two nodes](https://handson.metacog.co.kr/#/note/01-install~garage-object-storage-onprem)
+- [LocalStack — a local AWS that accepts any credentials and ignores your IAM policy](https://handson.metacog.co.kr/#/note/01-install~localstack-local-aws-and-its-limits)
 
 ## Checklists
 
 Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
 
 - [Capacity Planning](https://checklists.metacog.co.kr/docs/operations/capacity-planning/)
+
+## Reference Library
+
+Background chapters, ready-to-fill documents and pipeline walkthroughs from the sibling sites — see the full [Reference Library](../../references) for everything else:
+
+**Automation Playbook** — [FinOps and Cost Automation](https://automations.metacog.co.kr/docs/measurement-governance/finops/)

@@ -72,9 +72,18 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [Packer without a cloud account — a real image build, and why two identical builds differ](https://handson.metacog.co.kr/#/note/01-install~packer-image-build-local)
 - [Packer on AWS — an AMI built, booted, curled, and deleted](https://handson.metacog.co.kr/#/note/01-install~packer-aws-ami)
 - [Topic of the day — OpenTofu 1.12's `destroy = false` and dynamic `prevent_destroy`](https://handson.metacog.co.kr/#/note/05-daily~2026-08-13-opentofu-lifecycle-destroy)
+- [Crossplane — cloud resources as Kubernetes objects, and a status that says Ready about something deleted](https://handson.metacog.co.kr/#/note/01-install~crossplane-cloud-resources-as-crds)
 
 ## Checklists
 
 Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
 
 - [Infrastructure as Code Review](https://checklists.metacog.co.kr/docs/devops/infrastructure-as-code/)
+
+## Reference Library
+
+Background chapters, ready-to-fill documents and pipeline walkthroughs from the sibling sites — see the full [Reference Library](../../references) for everything else:
+
+**Architecture Field Notes** — [Infrastructure as Code That Doesn't Drift](https://architectures.metacog.co.kr/docs/platform/infrastructure-as-code/)
+
+**Automation Playbook** — [IaC Principles and Tool Landscape](https://automations.metacog.co.kr/docs/infrastructure-as-code/iac-principles/) · [Module Design and Reuse](https://automations.metacog.co.kr/docs/infrastructure-as-code/module-design/) · [Drift, State, and Immutability](https://automations.metacog.co.kr/docs/infrastructure-as-code/drift-and-immutability/) · [Policy as Code](https://automations.metacog.co.kr/docs/infrastructure-as-code/policy-as-code/)

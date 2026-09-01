@@ -73,9 +73,20 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [Dagster locally — software-defined assets, from pip install to a materialized pipeline](https://handson.metacog.co.kr/#/note/01-install~dagster-local-quickstart)
 - [dbt under Dagster — one lineage graph, and a failing test that stops the mart](https://handson.metacog.co.kr/#/note/01-install~dagster-dbt-integration)
 - [dbt with DuckDB locally — models, tests, and why `dbt build` is not `dbt run`](https://handson.metacog.co.kr/#/note/01-install~dbt-duckdb-local)
+- [Airflow 3 locally — the date your task gets is not the time it ran, and manual runs have none](https://handson.metacog.co.kr/#/note/01-install~airflow-dag-scheduling-semantics)
 
 ## Automation Case Studies
 
 Industry patterns and incident write-ups from [IT Automation](https://automations.metacog.co.kr/docs/case-studies/) that show this competency at work across organizations:
 
 - [Zero-Touch Environment Provisioning](https://automations.metacog.co.kr/docs/case-studies/ephemeral-environments/)
+
+## Reference Library
+
+Background chapters, ready-to-fill documents and pipeline walkthroughs from the sibling sites — see the full [Reference Library](../../references) for everything else:
+
+**Architecture Field Notes** — [The Internal Platform as a Product](https://architectures.metacog.co.kr/docs/platform/platform-as-product/) · [Environments, Config, and Secrets](https://architectures.metacog.co.kr/docs/platform/environments-and-secrets/) · [Multi-Tenancy and Cost Boundaries](https://architectures.metacog.co.kr/docs/platform/tenancy-and-cost/)
+
+**Automation Playbook** — [Internal Developer Platforms](https://automations.metacog.co.kr/docs/gitops-platform/internal-platforms/) · [Golden Paths and Service Scaffolding](https://automations.metacog.co.kr/docs/gitops-platform/golden-paths/)
+
+**Pipeline Field Guide** — [Delivery Platform](https://jeonck.github.io/pipelines/docs/delivery-platform/)

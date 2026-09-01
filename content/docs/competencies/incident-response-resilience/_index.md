@@ -82,6 +82,7 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 Industry patterns and incident write-ups from [IT Automation](https://automations.metacog.co.kr/docs/case-studies/) that show this competency at work across organizations:
 
 - [Chaos Engineering as a Reliability Practice](https://automations.metacog.co.kr/docs/case-studies/chaos-engineering/)
+- [Two Stacks, One Notification Layer](https://automations.metacog.co.kr/docs/case-studies/two-stacks-one-notification-layer/)
 
 ## Checklists
 
@@ -91,3 +92,13 @@ Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/
 - [On-Call Handover](https://checklists.metacog.co.kr/docs/operations/on-call-handover/)
 - [Postmortem](https://checklists.metacog.co.kr/docs/operations/postmortem/)
 - [Backup and Recovery](https://checklists.metacog.co.kr/docs/operations/backup-and-recovery/)
+
+## Reference Library
+
+Background chapters, ready-to-fill documents and pipeline walkthroughs from the sibling sites — see the full [Reference Library](../../references) for everything else:
+
+**Architecture Field Notes** — [Failure Modes: Timeouts, Breakers, Bulkheads](https://architectures.metacog.co.kr/docs/reliability/failure-modes/) · [Incident Response and Blameless Postmortems](https://architectures.metacog.co.kr/docs/reliability/incident-response/)
+
+**Automation Playbook** — [Runbook Automation](https://automations.metacog.co.kr/docs/observability-incident-response/runbook-automation/) · [Self-Healing and Auto-Remediation](https://automations.metacog.co.kr/docs/observability-incident-response/self-healing/)
+
+**Templates** — [Incident Report](https://templates.metacog.co.kr/docs/operations-incident/incident-report/) · [Postmortem](https://templates.metacog.co.kr/docs/operations-incident/postmortem/) · [On-call Handover](https://templates.metacog.co.kr/docs/operations-incident/on-call-handover/) · [Operational Runbook](https://templates.metacog.co.kr/docs/operations-incident/operational-runbook/) · [Change Request](https://templates.metacog.co.kr/docs/operations-incident/change-request/)

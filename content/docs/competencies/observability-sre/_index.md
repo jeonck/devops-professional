@@ -80,6 +80,7 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [OpenTelemetry tracing — one trace across two services, and where the 420ms actually went](https://handson.metacog.co.kr/#/note/01-install~opentelemetry-tracing-two-services)
 - [OpenSearch — a single node, and the range query that quietly lies](https://handson.metacog.co.kr/#/note/01-install~opensearch-mappings-and-templates)
 - [Topic of the day — Prometheus 3.13 LTS, a self-scrape lab and the new min_of()/max_of()](https://handson.metacog.co.kr/#/note/05-daily~2026-08-11-prometheus-3-13-lts)
+- [SLOs and error budgets — burn-rate alerts that page once, and the SLI that records nothing](https://handson.metacog.co.kr/#/note/01-install~slo-error-budget-burn-rate)
 
 ## Automation Case Studies
 
@@ -94,3 +95,11 @@ Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/
 
 - [Observability](https://checklists.metacog.co.kr/docs/operations/observability/)
 - [Production Readiness Review](https://checklists.metacog.co.kr/docs/devops/production-readiness/)
+
+## Reference Library
+
+Background chapters, ready-to-fill documents and pipeline walkthroughs from the sibling sites — see the full [Reference Library](../../references) for everything else:
+
+**Architecture Field Notes** — [Observability: What to Actually Wire](https://architectures.metacog.co.kr/docs/reliability/observability/) · [SLOs, Error Budgets, and Saying No](https://architectures.metacog.co.kr/docs/reliability/slos-and-error-budgets/) · [Capacity, Load Shedding, and Backpressure](https://architectures.metacog.co.kr/docs/reliability/capacity-and-backpressure/)
+
+**Automation Playbook** — [Alert Design and Noise Reduction](https://automations.metacog.co.kr/docs/observability-incident-response/alert-design/) · [Automating Observability Instrumentation](https://automations.metacog.co.kr/docs/observability-incident-response/automated-instrumentation/)

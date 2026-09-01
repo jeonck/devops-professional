@@ -71,3 +71,14 @@ How the [handson](https://handson.metacog.co.kr/#/notes) practice itself is run 
 - [Weekly review 2026-08-22](https://handson.metacog.co.kr/#/note/05-daily~2026-08-22-weekly)
 - [Weekly review 2026-08-15](https://handson.metacog.co.kr/#/note/05-daily~2026-08-15-weekly)
 - [Weekly review 2026-08-08](https://handson.metacog.co.kr/#/note/05-daily~2026-08-08-weekly)
+- [Weekly review 2026-08-29](https://handson.metacog.co.kr/#/note/05-daily~2026-08-29-weekly)
+
+## Reference Library
+
+Background chapters, ready-to-fill documents and pipeline walkthroughs from the sibling sites — see the full [Reference Library](../../references) for everything else:
+
+**Architecture Field Notes** — [Architecture Decision Records That Get Read](https://architectures.metacog.co.kr/docs/knowledge/adr/) · [Design Reviews and RFCs](https://architectures.metacog.co.kr/docs/knowledge/design-reviews/) · [Diagrams That Age Well](https://architectures.metacog.co.kr/docs/knowledge/diagrams/) · [Runbooks and On-Call Docs](https://architectures.metacog.co.kr/docs/knowledge/runbooks/) · [Building a Team Architecture Memory](https://architectures.metacog.co.kr/docs/knowledge/team-memory/)
+
+**Automation Playbook** — [Automating Change Management](https://automations.metacog.co.kr/docs/measurement-governance/change-management/) · [Scaling Automation Across Teams](https://automations.metacog.co.kr/docs/measurement-governance/scaling-automation/) · [Choosing What to Automate](https://automations.metacog.co.kr/docs/foundations/choosing-what-to-automate/) · [Building the Business Case](https://automations.metacog.co.kr/docs/foundations/business-case/) · [Anti-Patterns and Failure Modes](https://automations.metacog.co.kr/docs/foundations/anti-patterns/)
+
+**Templates** — [Architecture Decision Record](https://templates.metacog.co.kr/docs/architecture-design/architecture-decision-record/) · [Project Charter](https://templates.metacog.co.kr/docs/project-management/project-charter/) · [Project Plan](https://templates.metacog.co.kr/docs/project-management/project-plan/) · [RAID Log](https://templates.metacog.co.kr/docs/project-management/raid-log/) · [Status Report](https://templates.metacog.co.kr/docs/project-management/status-report/) · [Meeting Minutes](https://templates.metacog.co.kr/docs/project-management/meeting-minutes/) · [User Story](https://templates.metacog.co.kr/docs/requirements/user-story/) · [Business Requirements Document](https://templates.metacog.co.kr/docs/requirements/business-requirements-document/) · [Software Requirements Specification](https://templates.metacog.co.kr/docs/requirements/software-requirements-specification/) · [Use Case Specification](https://templates.metacog.co.kr/docs/requirements/use-case-specification/) · [Requirements Traceability Matrix](https://templates.metacog.co.kr/docs/requirements/requirements-traceability-matrix/)

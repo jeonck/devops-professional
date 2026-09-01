@@ -77,3 +77,9 @@ Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/prob
 Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
 
 - [FastAPI in MVC layers — one model serving both a JSON API and an HTML view](https://handson.metacog.co.kr/#/note/01-install~fastapi-mvc-layering)
+
+## Reference Library
+
+Background chapters, ready-to-fill documents and pipeline walkthroughs from the sibling sites — see the full [Reference Library](../../references) for everything else:
+
+**Architecture Field Notes** — [API Contracts and Versioning](https://architectures.metacog.co.kr/docs/system-design/api-contracts/) · [Idempotency and Retries](https://architectures.metacog.co.kr/docs/system-design/idempotency-and-retries/)

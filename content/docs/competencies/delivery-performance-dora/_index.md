@@ -65,3 +65,11 @@ DORA metrics are the common language hiring managers, VPs of Engineering, and au
 Industry patterns and incident write-ups from [IT Automation](https://automations.metacog.co.kr/docs/case-studies/) that show this competency at work across organizations:
 
 - [Trunk-Based Development at Scale](https://automations.metacog.co.kr/docs/case-studies/trunk-based-development/)
+
+## Reference Library
+
+Background chapters, ready-to-fill documents and pipeline walkthroughs from the sibling sites — see the full [Reference Library](../../references) for everything else:
+
+**Architecture Field Notes** — [Trunk-Based Development and Branch Reality](https://architectures.metacog.co.kr/docs/delivery/trunk-based-development/)
+
+**Automation Playbook** — [DORA Metrics and Beyond](https://automations.metacog.co.kr/docs/measurement-governance/dora-metrics/)

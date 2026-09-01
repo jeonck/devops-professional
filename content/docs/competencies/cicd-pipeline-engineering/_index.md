@@ -67,9 +67,24 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [GitLab CI to Argo CD on-prem — a FastAPI service from commit to running pod](https://handson.metacog.co.kr/#/note/01-install~gitlab-ci-argocd-fastapi-onprem)
 - [GitLab CI to Argo CD FastAPI deployment — step-by-step procedure](https://handson.metacog.co.kr/#/note/02-runbook~gitlab-ci-argocd-fastapi-procedure)
 - [Bruno — a git-friendly REST client, from a request to a CI gate](https://handson.metacog.co.kr/#/note/04-reference~bruno-api-client)
+- [Nexus Repository — three repository types, and a login that lies about your password](https://handson.metacog.co.kr/#/note/01-install~nexus-repository-hosted-proxy-docker)
+- [Gitea — where the repository actually lives, and what a deleted database row costs](https://handson.metacog.co.kr/#/note/01-install~gitea-selfhosted-git-server)
+- [walgit — a git server whose disk you can delete, and two bugs between the README and the code](https://handson.metacog.co.kr/#/note/01-install~walgit-git-server-on-object-storage)
 
 ## Checklists
 
 Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
 
 - [CI/CD Pipeline Review](https://checklists.metacog.co.kr/docs/devops/cicd-pipeline/)
+
+## Reference Library
+
+Background chapters, ready-to-fill documents and pipeline walkthroughs from the sibling sites — see the full [Reference Library](../../references) for everything else:
+
+**Architecture Field Notes** — [Pipeline Design: Fast Feedback, Slow Gates](https://architectures.metacog.co.kr/docs/delivery/pipeline-design/) · [Build Reproducibility and Artifact Promotion](https://architectures.metacog.co.kr/docs/delivery/build-reproducibility/)
+
+**Automation Playbook** — [Pipeline Design Principles](https://automations.metacog.co.kr/docs/cicd-pipelines/pipeline-design/) · [Automated Testing Strategy](https://automations.metacog.co.kr/docs/cicd-pipelines/testing-strategy/) · [Deployment Strategies](https://automations.metacog.co.kr/docs/cicd-pipelines/deployment-strategies/) · [Release Orchestration and Rollback](https://automations.metacog.co.kr/docs/cicd-pipelines/release-rollback/)
+
+**Templates** — [Code Review Checklist](https://templates.metacog.co.kr/docs/development-release/code-review-checklist/) · [Coding Standards](https://templates.metacog.co.kr/docs/development-release/coding-standards/) · [Pull Request Template](https://templates.metacog.co.kr/docs/development-release/pull-request-template/) · [Test Plan](https://templates.metacog.co.kr/docs/testing-qa/test-plan/) · [Test Case Specification](https://templates.metacog.co.kr/docs/testing-qa/test-case-specification/) · [UAT Plan](https://templates.metacog.co.kr/docs/testing-qa/uat-plan/) · [Defect Report](https://templates.metacog.co.kr/docs/testing-qa/defect-report/) · [Test Summary Report](https://templates.metacog.co.kr/docs/testing-qa/test-summary-report/)
+
+**Pipeline Field Guide** — [Your First Change](https://jeonck.github.io/pipelines/docs/your-first-change/) · [Pull Request to Production](https://jeonck.github.io/pipelines/docs/pull-request-to-production/)

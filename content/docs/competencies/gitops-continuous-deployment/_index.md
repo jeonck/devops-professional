@@ -83,3 +83,15 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
 
 - [Release Day Runbook](https://checklists.metacog.co.kr/docs/devops/release-day/)
+
+## Reference Library
+
+Background chapters, ready-to-fill documents and pipeline walkthroughs from the sibling sites — see the full [Reference Library](../../references) for everything else:
+
+**Architecture Field Notes** — [Progressive Delivery](https://architectures.metacog.co.kr/docs/delivery/progressive-delivery/) · [Rollback Is a Feature](https://architectures.metacog.co.kr/docs/delivery/rollback/)
+
+**Automation Playbook** — [The GitOps Operating Model](https://automations.metacog.co.kr/docs/gitops-platform/gitops-model/) · [Progressive Delivery](https://automations.metacog.co.kr/docs/gitops-platform/progressive-delivery/)
+
+**Templates** — [Deployment Runbook](https://templates.metacog.co.kr/docs/development-release/deployment-runbook/) · [Release Notes](https://templates.metacog.co.kr/docs/development-release/release-notes/)
+
+**Pipeline Field Guide** — [Deploy Request](https://jeonck.github.io/pipelines/docs/deploy-request/) · [Feature Rollout](https://jeonck.github.io/pipelines/docs/feature-rollout/)

@@ -74,6 +74,8 @@ Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/prob
 Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
 
 - [Topic of the day — signing an image and attesting its SBOM with cosign v3 and syft](https://handson.metacog.co.kr/#/note/05-daily~2026-08-12-cosign-sbom-signing)
+- [Vault — rotating a password without redeploying, and the two you rotated away that still work](https://handson.metacog.co.kr/#/note/01-install~vault-secrets-rotation)
+- [Harbor on Apple Silicon — three fixable failures, then one that is not](https://handson.metacog.co.kr/#/note/03-troubleshoot~harbor-installer-on-podman-arm64)
 
 ## Staying Current
 
@@ -94,3 +96,13 @@ For the DevOps-side equivalent — releases, EOL dates and deprecation deadlines
 Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
 
 - [Container Image Hardening](https://checklists.metacog.co.kr/docs/devops/container-image/)
+
+## Reference Library
+
+Background chapters, ready-to-fill documents and pipeline walkthroughs from the sibling sites — see the full [Reference Library](../../references) for everything else:
+
+**Architecture Field Notes** — [Threat Modeling in One Hour](https://architectures.metacog.co.kr/docs/security/threat-modeling/) · [Identity, Authentication, Authorisation](https://architectures.metacog.co.kr/docs/security/identity-and-authorization/) · [Least Privilege and Auditability](https://architectures.metacog.co.kr/docs/security/least-privilege/) · [Secrets and Key Management](https://architectures.metacog.co.kr/docs/security/secrets-management/) · [Supply Chain: Dependencies, SBOM, Signing](https://architectures.metacog.co.kr/docs/security/supply-chain/)
+
+**Automation Playbook** — [Shift-Left Security in the Pipeline](https://automations.metacog.co.kr/docs/security-compliance/shift-left-security/) · [Software Supply Chain Security](https://automations.metacog.co.kr/docs/security-compliance/supply-chain/) · [Secrets Management Automation](https://automations.metacog.co.kr/docs/security-compliance/secrets-management/) · [Compliance as Code](https://automations.metacog.co.kr/docs/security-compliance/compliance-as-code/)
+
+**Templates** — [Information Security Policy](https://templates.metacog.co.kr/docs/security-compliance/information-security-policy/) · [Risk Register](https://templates.metacog.co.kr/docs/security-compliance/risk-register/) · [Access Review](https://templates.metacog.co.kr/docs/security-compliance/access-review/) · [Vendor Security Assessment](https://templates.metacog.co.kr/docs/security-compliance/vendor-security-assessment/) · [Data Protection Impact Assessment](https://templates.metacog.co.kr/docs/security-compliance/data-protection-impact-assessment/)

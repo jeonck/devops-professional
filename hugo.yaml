@@ -83,6 +83,9 @@ menu:
     - name: Tools
       pageRef: /docs/tools
       weight: 15
+    - name: References
+      pageRef: /docs/references
+      weight: 18
     - name: Glossary
       pageRef: /docs/glossary
       weight: 20

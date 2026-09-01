@@ -71,3 +71,10 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [DSPy — the prompt it writes for you, measured before and after compiling](https://handson.metacog.co.kr/#/note/01-install~dspy-prompt-optimization)
 - [Pydantic AI with Gemini — typed output, and the retry that enforces meaning](https://handson.metacog.co.kr/#/note/01-install~pydantic-ai-structured-output)
 - [MarkItDown — documents to Markdown, and the two failures that arrive silently](https://handson.metacog.co.kr/#/note/01-install~markitdown-document-to-markdown)
+- [Local RAG — two checkbox lines, one answered as a procedure and one as a fact](https://handson.metacog.co.kr/#/note/01-install~local-rag-retrieval-failure-modes)
+
+## Reference Library
+
+Background chapters, ready-to-fill documents and pipeline walkthroughs from the sibling sites — see the full [Reference Library](../../references) for everything else:
+
+**Automation Playbook** — [Where AI Fits in Operations](https://automations.metacog.co.kr/docs/ai-assisted-automation/where-ai-fits/) · [AIOps and Anomaly Detection](https://automations.metacog.co.kr/docs/ai-assisted-automation/aiops-anomaly-detection/) · [Agentic Workflows and Guardrails](https://automations.metacog.co.kr/docs/ai-assisted-automation/agentic-guardrails/) · [Automating Code Review and Documentation](https://automations.metacog.co.kr/docs/ai-assisted-automation/code-review-docs/)

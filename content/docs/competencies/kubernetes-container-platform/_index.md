@@ -87,9 +87,17 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [Draining and replacing a production node](https://handson.metacog.co.kr/#/note/02-runbook~k8s-node-drain-replace)
 - [Topic of the day — in-place Pod resize goes GA in Kubernetes 1.35](https://handson.metacog.co.kr/#/note/05-daily~2026-08-14-inplace-pod-resize-ga)
 - [Topic of the day — from Ingress to Gateway API, a 30-minute lab on kind](https://handson.metacog.co.kr/#/note/05-daily~2026-08-07-gateway-api)
+- [Talos Linux — a Kubernetes node with no shell, and four things that stop it locally](https://handson.metacog.co.kr/#/note/01-install~talos-kubernetes-local-cluster)
+- [Valkey, Redis and Dragonfly on Kubernetes — one manifest, three answers](https://handson.metacog.co.kr/#/note/01-install~valkey-redis-dragonfly-on-kubernetes)
 
 ## Checklists
 
 Run-before-you-ship lists from [IT Checklists](https://checklists.metacog.co.kr/docs/) — use them as the review gate behind the evidence above:
 
 - [Kubernetes Deployment](https://checklists.metacog.co.kr/docs/devops/kubernetes-deployment/)
+
+## Reference Library
+
+Background chapters, ready-to-fill documents and pipeline walkthroughs from the sibling sites — see the full [Reference Library](../../references) for everything else:
+
+**Architecture Field Notes** — [Kubernetes: What You Sign Up For](https://architectures.metacog.co.kr/docs/platform/kubernetes-reality/)
