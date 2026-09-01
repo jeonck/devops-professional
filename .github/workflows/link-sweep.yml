@@ -18,7 +18,7 @@ jobs:
   sweep:
     runs-on: ubuntu-latest
     env:
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
     steps:
       - uses: actions/checkout@v4
 
@@ -29,14 +29,14 @@ jobs:
           if [ -s report.md ]; then echo "has_new=true" >> "$GITHUB_OUTPUT"; fi
 
       - name: Setup Hugo
-        if: steps.sweep.outputs.has_new == 'true' && env.ANTHROPIC_API_KEY != ''
+        if: steps.sweep.outputs.has_new == 'true' && env.CLAUDE_CODE_OAUTH_TOKEN != ''
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
 
       - name: Let Claude place the new links
-        if: steps.sweep.outputs.has_new == 'true' && env.ANTHROPIC_API_KEY != ''
+        if: steps.sweep.outputs.has_new == 'true' && env.CLAUDE_CODE_OAUTH_TOKEN != ''
         run: |
           npx -y @anthropic-ai/claude-code@latest \
             -p "$(cat scripts/link-sweep-prompt.md)" \
