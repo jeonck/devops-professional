@@ -22,7 +22,7 @@ close a gap or to prepare a review — then go operate the thing.
 | [Architecture Field Notes](https://architectures.metacog.co.kr/) | Practitioner notes on architecture decisions, styles, and trade-offs | Deciding *before* you build — and writing down why |
 | [IT Automation Playbook](https://automations.metacog.co.kr/docs/) | Automation practice by domain, plus real case studies | Choosing what to automate and how far to take it |
 | [handson](https://handson.metacog.co.kr/#/notes) | Install guides, runbooks and playbooks that were actually run | Building the hands-on evidence a competency asks for |
-| [ICT Problem Notes](https://sols.metacog.co.kr/problems/) | Real production failures with root cause and fix | Debugging patterns, interview war stories |
+| [ICT Problem Notes](https://fieldcases.metacog.co.kr/problems/) | Real production failures with root cause and fix | Debugging patterns, interview war stories |
 | [IT Checklists](https://checklists.metacog.co.kr/docs/) | Standardized review lists across IT domains | The gate you run before shipping or handing over |
 | [IT Template Library](https://templates.metacog.co.kr/docs/) | Ready-to-fill documents for delivery, ops, and compliance | Producing the artifact instead of formatting one |
 | [Pipeline Field Guide](https://jeonck.github.io/pipelines/) | End-to-end walkthroughs of how a change reaches production | Explaining delivery flow to a team or an interviewer |

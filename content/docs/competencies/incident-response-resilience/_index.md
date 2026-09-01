@@ -64,12 +64,12 @@ A polished postmortem template means nothing without a trail of completed action
 
 ## Field Cases
 
-Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/problems/) that exercise this competency:
+Real incident write-ups from [ICT Problem Notes](https://fieldcases.metacog.co.kr/problems/) that exercise this competency:
 
-- [A 40-second downstream blip became a 25-minute outage that continued after the downstream recovered](https://sols.metacog.co.kr/problems/a-40-second-blip-became-a-25-minute-outage/)
-- [Writes keep failing with "read-only transaction" long after the failover finished](https://sols.metacog.co.kr/problems/writes-keep-failing-with-read-only-transaction-after-failover/)
-- [The nightly reconciliation ran twice and both runs logged success](https://sols.metacog.co.kr/problems/the-nightly-reconciliation-ran-twice-and-both-runs-logged-success/)
-- [Intermittent 503s that hit the quiet endpoints and never the busy ones](https://sols.metacog.co.kr/problems/intermittent-503s-only-on-the-quiet-endpoints/)
+- [A 40-second downstream blip became a 25-minute outage that continued after the downstream recovered](https://fieldcases.metacog.co.kr/problems/a-40-second-blip-became-a-25-minute-outage)
+- [Writes keep failing with "read-only transaction" long after the failover finished](https://fieldcases.metacog.co.kr/problems/writes-keep-failing-with-read-only-transaction-after-failover)
+- [The nightly reconciliation ran twice and both runs logged success](https://fieldcases.metacog.co.kr/problems/the-nightly-reconciliation-ran-twice-and-both-runs-logged-success)
+- [Intermittent 503s that hit the quiet endpoints and never the busy ones](https://fieldcases.metacog.co.kr/problems/intermittent-503s-only-on-the-quiet-endpoints)
 
 ## Hands-On Labs
 

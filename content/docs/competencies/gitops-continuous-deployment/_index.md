@@ -64,10 +64,10 @@ The real test of GitOps maturity isn't whether you run Argo CD or Flux — it's 
 
 ## Field Cases
 
-Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/problems/) that exercise this competency:
+Real incident write-ups from [ICT Problem Notes](https://fieldcases.metacog.co.kr/problems/) that exercise this competency:
 
-- [The fix is deployed, the rollout succeeded, and a third of requests still hit the old bug](https://sols.metacog.co.kr/problems/the-fix-is-deployed-and-a-third-of-requests-still-hit-the-old-bug/)
-- [Database CPU hits 100% for forty seconds, at a time that moves with each deploy](https://sols.metacog.co.kr/problems/database-cpu-hits-100-percent-for-forty-seconds-at-a-time-that-moves-with-each-deploy/)
+- [The fix is deployed, the rollout succeeded, and a third of requests still hit the old bug](https://fieldcases.metacog.co.kr/problems/the-fix-is-deployed-and-a-third-of-requests-still-hit-the-old-bug)
+- [Database CPU hits 100% for forty seconds, at a time that moves with each deploy](https://fieldcases.metacog.co.kr/problems/database-cpu-hits-100-percent-for-forty-seconds-at-a-time-that-moves-with-each-deploy)
 
 ## Hands-On Labs
 

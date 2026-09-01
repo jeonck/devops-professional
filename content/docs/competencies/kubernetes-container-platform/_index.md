@@ -65,11 +65,11 @@ The interview question that separates real operators from tutorial-followers isn
 
 ## Field Cases
 
-Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/problems/) that exercise this competency:
+Real incident write-ups from [ICT Problem Notes](https://fieldcases.metacog.co.kr/problems/) that exercise this competency:
 
-- [DNS lookups inside pods intermittently take exactly 5 seconds](https://sols.metacog.co.kr/problems/dns-lookups-intermittently-take-exactly-5-seconds/)
-- [Pods restart every few hours with nothing in the application log and the heap at 40%](https://sols.metacog.co.kr/problems/pods-restart-every-few-hours-with-nothing-in-the-application-log/)
-- [connect() fails with "cannot assign requested address" at peak, and the downstream is healthy](https://sols.metacog.co.kr/problems/connect-fails-with-cannot-assign-requested-address-at-peak/)
+- [DNS lookups inside pods intermittently take exactly 5 seconds](https://fieldcases.metacog.co.kr/problems/dns-lookups-intermittently-take-exactly-5-seconds)
+- [Pods restart every few hours with nothing in the application log and the heap at 40%](https://fieldcases.metacog.co.kr/problems/pods-restart-every-few-hours-with-nothing-in-the-application-log)
+- [connect() fails with "cannot assign requested address" at peak, and the downstream is healthy](https://fieldcases.metacog.co.kr/problems/connect-fails-with-cannot-assign-requested-address-at-peak)
 
 ## Hands-On Labs
 

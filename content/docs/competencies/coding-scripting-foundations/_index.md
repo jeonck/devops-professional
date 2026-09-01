@@ -65,12 +65,12 @@ The skill that separates a DevOps professional from someone who "can write a scr
 
 ## Field Cases
 
-Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/problems/) that exercise this competency:
+Real incident write-ups from [ICT Problem Notes](https://fieldcases.metacog.co.kr/problems/) that exercise this competency:
 
-- ["prepared statement does not exist" appears only under concurrency, never in staging](https://sols.metacog.co.kr/problems/prepared-statement-errors-appear-only-under-concurrency/)
-- [The same query is fast on a fresh connection and slow forever after the fifth run](https://sols.metacog.co.kr/problems/the-same-query-is-fast-on-a-fresh-connection-and-slow-after-the-fifth-run/)
-- [Consumer lag grows for hours while every consumer is running and logging normally](https://sols.metacog.co.kr/problems/consumer-lag-grows-for-hours-while-the-consumers-look-healthy/)
-- [Every query on one table stopped, and the migration that caused it had not started yet](https://sols.metacog.co.kr/problems/every-query-on-one-table-stopped-and-the-migration-had-not-started-yet/)
+- ["prepared statement does not exist" appears only under concurrency, never in staging](https://fieldcases.metacog.co.kr/problems/prepared-statement-errors-appear-only-under-concurrency)
+- [The same query is fast on a fresh connection and slow forever after the fifth run](https://fieldcases.metacog.co.kr/problems/the-same-query-is-fast-on-a-fresh-connection-and-slow-after-the-fifth-run)
+- [Consumer lag grows for hours while every consumer is running and logging normally](https://fieldcases.metacog.co.kr/problems/consumer-lag-grows-for-hours-while-the-consumers-look-healthy)
+- [Every query on one table stopped, and the migration that caused it had not started yet](https://fieldcases.metacog.co.kr/problems/every-query-on-one-table-stopped-and-the-migration-had-not-started-yet)
 
 ## Hands-On Labs
 

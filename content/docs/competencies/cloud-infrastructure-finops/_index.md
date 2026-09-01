@@ -65,9 +65,9 @@ The fastest way to lose credibility with a platform or SRE leadership team is to
 
 ## Field Cases
 
-Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/problems/) that exercise this competency:
+Real incident write-ups from [ICT Problem Notes](https://fieldcases.metacog.co.kr/problems/) that exercise this competency:
 
-- [df says the disk is full, du says it is half empty](https://sols.metacog.co.kr/problems/df-says-the-disk-is-full-du-says-it-is-half-empty/)
+- [df says the disk is full, du says it is half empty](https://fieldcases.metacog.co.kr/problems/df-says-the-disk-is-full-du-says-it-is-half-empty)
 
 ## Hands-On Labs
 

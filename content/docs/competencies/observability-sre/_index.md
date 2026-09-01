@@ -63,12 +63,12 @@ A pile of dashboards is not observability — it's an admission that nobody deci
 
 ## Field Cases
 
-Real incident write-ups from [ICT Problem Notes](https://sols.metacog.co.kr/problems/) that exercise this competency:
+Real incident write-ups from [ICT Problem Notes](https://fieldcases.metacog.co.kr/problems/) that exercise this competency:
 
-- [A 40-minute outage passed with no alert, and the error-rate panel showed a flat line](https://sols.metacog.co.kr/problems/a-40-minute-outage-passed-with-no-alert/)
-- [All dashboards developed gaps and Prometheus restarted every twenty minutes](https://sols.metacog.co.kr/problems/all-dashboards-developed-gaps-and-prometheus-restarted-every-twenty-minutes/)
-- [p99 latency spikes to 400ms while CPU utilisation sits at 30%](https://sols.metacog.co.kr/problems/p99-latency-spikes-while-cpu-utilisation-sits-at-30-percent/)
-- [Every query got slower during business hours and recovered overnight, for three weeks](https://sols.metacog.co.kr/problems/every-query-got-slower-during-business-hours-and-recovered-overnight/)
+- [A 40-minute outage passed with no alert, and the error-rate panel showed a flat line](https://fieldcases.metacog.co.kr/problems/a-40-minute-outage-passed-with-no-alert)
+- [All dashboards developed gaps and Prometheus restarted every twenty minutes](https://fieldcases.metacog.co.kr/problems/all-dashboards-developed-gaps-and-prometheus-restarted-every-twenty-minutes)
+- [p99 latency spikes to 400ms while CPU utilisation sits at 30%](https://fieldcases.metacog.co.kr/problems/p99-latency-spikes-while-cpu-utilisation-sits-at-30-percent)
+- [Every query got slower during business hours and recovered overnight, for three weeks](https://fieldcases.metacog.co.kr/problems/every-query-got-slower-during-business-hours-and-recovered-overnight)
 
 ## Hands-On Labs
 

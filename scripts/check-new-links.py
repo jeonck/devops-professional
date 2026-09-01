@@ -21,8 +21,8 @@ SITEMAP_SOURCES = [
      r"/docs/(devops|operations)/[a-z0-9-]+/$"),
     ("IT Template Library", "https://templates.metacog.co.kr/sitemap.xml",
      r"/docs/[a-z-]+/[a-z0-9-]+/$"),
-    ("ICT Problem Notes", "https://sols.metacog.co.kr/sitemap.xml",
-     r"/problems/[a-z0-9-]+/$"),
+    ("Field Cases", "https://fieldcases.metacog.co.kr/sitemap.xml",
+     r"/problems/[a-z0-9-]+$"),
     ("Pipeline Field Guide", "https://jeonck.github.io/pipelines/sitemap.xml",
      r"/(docs/[a-z0-9-]+|diagrams)/$"),
     # catalogues: watch for new *sections* only, their per-item pages are linked in bulk
