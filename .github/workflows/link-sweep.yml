@@ -2,8 +2,9 @@ name: Daily link sweep
 
 on:
   schedule:
-    # 02:00 CDT (America/Chicago, UTC-5) — the same slot the release board collects on
-    - cron: '0 7 * * *'
+    # 02:17 CDT (America/Chicago, UTC-5). Off the hour on purpose: GitHub queues
+    # scheduled runs hardest at :00, which pushed this ~5h late on 2026-09-02.
+    - cron: '17 7 * * *'
   workflow_dispatch:
 
 permissions:
