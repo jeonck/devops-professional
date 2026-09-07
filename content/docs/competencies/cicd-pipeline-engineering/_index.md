@@ -70,6 +70,7 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [Nexus Repository — three repository types, and a login that lies about your password](https://handson.metacog.co.kr/#/note/01-install~nexus-repository-hosted-proxy-docker)
 - [Gitea — where the repository actually lives, and what a deleted database row costs](https://handson.metacog.co.kr/#/note/01-install~gitea-selfhosted-git-server)
 - [walgit — a git server whose disk you can delete, and two bugs between the README and the code](https://handson.metacog.co.kr/#/note/01-install~walgit-git-server-on-object-storage)
+- [CDP for testing — measurements you can trust, and two coverage calls that always flatter you](https://handson.metacog.co.kr/#/note/01-install~chrome-devtools-protocol-testing)
 
 ## Checklists
 

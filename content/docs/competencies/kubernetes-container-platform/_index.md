@@ -91,6 +91,10 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [Topic of the day — from Ingress to Gateway API, a 30-minute lab on kind](https://handson.metacog.co.kr/#/note/05-daily~2026-08-07-gateway-api)
 - [Valkey, Redis and Dragonfly on Kubernetes — one manifest, three answers](https://handson.metacog.co.kr/#/note/01-install~valkey-redis-dragonfly-on-kubernetes)
 - [Talos Linux — a Kubernetes node with no shell, and four things that stop it locally](https://handson.metacog.co.kr/#/note/01-install~talos-kubernetes-local-cluster)
+- [CKA service, ingress, storage and DNS drills — five faults that every status column calls healthy](https://handson.metacog.co.kr/#/note/01-install~cka-services-ingress-storage-drills)
+- [CKA workload and scheduling drills — seven tasks where the status column agrees with a wrong answer](https://handson.metacog.co.kr/#/note/01-install~cka-workloads-scheduling-drills)
+- [The first three minutes of a CKA attempt — shell setup and generated YAML](https://handson.metacog.co.kr/#/note/02-runbook~cka-exam-first-three-minutes)
+- [CKA practice drills — five exam tasks, and the check that passes on each wrong answer](https://handson.metacog.co.kr/#/note/01-install~cka-practice-cluster-and-checks-that-lie)
 
 ## Checklists
 

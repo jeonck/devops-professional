@@ -79,6 +79,8 @@ Real incident write-ups from [ICT Problem Notes](https://fieldcases.metacog.co.k
 Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — install guides, runbooks and playbooks that were actually run, not just read:
 
 - [FastAPI in MVC layers — one model serving both a JSON API and an HTML view](https://handson.metacog.co.kr/#/note/01-install~fastapi-mvc-layering)
+- [PowerShell on an Apple Silicon Mac — no arm64 container, and four comparisons that return the wrong kind of thing](https://handson.metacog.co.kr/#/note/01-install~powershell-objects-and-the-checks-that-lie)
+- [Shell differences that produce a clean wrong answer — bash 3.2, zsh, dash and BSD tools on macOS](https://handson.metacog.co.kr/#/note/04-reference~shell-differences-that-produce-wrong-output)
 
 ## Reference Library
 

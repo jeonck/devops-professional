@@ -73,6 +73,7 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [Packer on AWS — an AMI built, booted, curled, and deleted](https://handson.metacog.co.kr/#/note/01-install~packer-aws-ami)
 - [Topic of the day — OpenTofu 1.12's `destroy = false` and dynamic `prevent_destroy`](https://handson.metacog.co.kr/#/note/05-daily~2026-08-13-opentofu-lifecycle-destroy)
 - [Crossplane — cloud resources as Kubernetes objects, and a status that says Ready about something deleted](https://handson.metacog.co.kr/#/note/01-install~crossplane-cloud-resources-as-crds)
+- [Pulumi on Kubernetes — a string that is an error message, and a preview that misses a deleted Deployment](https://handson.metacog.co.kr/#/note/01-install~pulumi-kubernetes-outputs-and-drift)
 
 ## Checklists
 
