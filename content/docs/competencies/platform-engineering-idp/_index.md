@@ -74,6 +74,7 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [dbt under Dagster — one lineage graph, and a failing test that stops the mart](https://handson.metacog.co.kr/#/note/01-install~dagster-dbt-integration)
 - [dbt with DuckDB locally — models, tests, and why `dbt build` is not `dbt run`](https://handson.metacog.co.kr/#/note/01-install~dbt-duckdb-local)
 - [Airflow 3 locally — the date your task gets is not the time it ran, and manual runs have none](https://handson.metacog.co.kr/#/note/01-install~airflow-dag-scheduling-semantics)
+- [Flink event-time windows — records that vanish, a job that emits nothing, and the same data giving two answers](https://handson.metacog.co.kr/#/note/01-install~flink-event-time-windows-and-late-data)
 
 ## Automation Case Studies
 
