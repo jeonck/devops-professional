@@ -78,6 +78,7 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [Topic of the day — signing an image and attesting its SBOM with cosign v3 and syft](https://handson.metacog.co.kr/#/note/05-daily~2026-08-12-cosign-sbom-signing)
 - [Vault — rotating a password without redeploying, and the two you rotated away that still work](https://handson.metacog.co.kr/#/note/01-install~vault-secrets-rotation)
 - [Harbor on Apple Silicon — three fixable failures, then one that is not](https://handson.metacog.co.kr/#/note/03-troubleshoot~harbor-installer-on-podman-arm64)
+- [Shrinking a container image 123× — and the two endpoints that stopped working](https://handson.metacog.co.kr/#/note/01-install~container-image-size-and-what-breaks)
 
 ## Checklists
 
