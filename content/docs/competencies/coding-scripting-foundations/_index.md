@@ -81,6 +81,8 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [FastAPI in MVC layers — one model serving both a JSON API and an HTML view](https://handson.metacog.co.kr/#/note/01-install~fastapi-mvc-layering)
 - [PowerShell on an Apple Silicon Mac — no arm64 container, and four comparisons that return the wrong kind of thing](https://handson.metacog.co.kr/#/note/01-install~powershell-objects-and-the-checks-that-lie)
 - [Shell differences that produce a clean wrong answer — bash 3.2, zsh, dash and BSD tools on macOS](https://handson.metacog.co.kr/#/note/04-reference~shell-differences-that-produce-wrong-output)
+- [FastAPI — seven ways a 200 lies, one small app, each one broken and fixed](https://handson.metacog.co.kr/#/note/01-install~fastapi-seven-ways-a-200-lies)
+- [Six things Linux does that look like bugs — the name is never the thing](https://handson.metacog.co.kr/#/note/04-reference~linux-the-name-is-not-the-thing)
 
 ## Reference Library
 
