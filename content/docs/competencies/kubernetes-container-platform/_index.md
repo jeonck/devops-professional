@@ -95,6 +95,7 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [CKA workload and scheduling drills — seven tasks where the status column agrees with a wrong answer](https://handson.metacog.co.kr/#/note/01-install~cka-workloads-scheduling-drills)
 - [The first three minutes of a CKA attempt — shell setup and generated YAML](https://handson.metacog.co.kr/#/note/02-runbook~cka-exam-first-three-minutes)
 - [CKA practice drills — five exam tasks, and the check that passes on each wrong answer](https://handson.metacog.co.kr/#/note/01-install~cka-practice-cluster-and-checks-that-lie)
+- [Draining a worker on the onprem two-node budget without losing Longhorn or Kafka redundancy](https://handson.metacog.co.kr/#/note/02-runbook~onprem-worker-drain-stateful-workloads)
 
 ## Checklists
 
