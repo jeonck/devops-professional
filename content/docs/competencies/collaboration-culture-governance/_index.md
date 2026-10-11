@@ -75,6 +75,7 @@ How the [handson](https://handson.metacog.co.kr/#/notes) practice itself is run 
 - [Weekly review 2026-09-05](https://handson.metacog.co.kr/#/note/05-daily~2026-09-05-weekly)
 - [Weekly review 2026-09-12](https://handson.metacog.co.kr/#/note/05-daily~2026-09-12-weekly)
 - [Weekly review 2026-09-27](https://handson.metacog.co.kr/#/note/05-daily~2026-09-27-weekly)
+- [Weekly review 2026-10-11](https://handson.metacog.co.kr/#/note/05-daily~2026-10-11-weekly)
 
 ## Reference Library
 
