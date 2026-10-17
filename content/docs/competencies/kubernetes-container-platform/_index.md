@@ -20,6 +20,7 @@ The interview question that separates real operators from tutorial-followers isn
 - eBPF-based networking and security observability using **Cilium** and **Tetragon** for L3-L7 policy enforcement and runtime threat detection without sidecar overhead
 - Autoscaling design: **Horizontal Pod Autoscaler (HPA)**, **Vertical Pod Autoscaler (VPA)**, and cluster autoscaling (Cluster Autoscaler, Karpenter) tuned for real workload elasticity, not just default thresholds
 - Stateful workload operations: writing and operating **Kubernetes Operators**, managing **StatefulSets**, and selecting/tuning **StorageClasses** for databases, queues, and other stateful services
+- Node supply underneath the cluster when nothing is managed for you: hypervisor or bare-metal provisioning (**Proxmox VE**/KVM, vSphere), VM templates driven by **cloud-init**, and rebuilding a node from code rather than by hand — see [The Hypervisor Under Your Lab](../../../blog/proxmox-under-the-lab/)
 - Node lifecycle management: node pool rotation, kernel/OS patching, and **cluster version upgrade** strategies (blue/green node pools, surge upgrades, API deprecation handling)
 - Multi-tenancy isolation strategies: namespace-based soft multi-tenancy, network policies, resource quotas, and hard isolation via separate clusters or virtual clusters (vcluster)
 

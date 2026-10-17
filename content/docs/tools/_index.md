@@ -18,6 +18,7 @@ Tool lists don't prove competency — **operating** the tool under real failure 
 - **AI agents moved from chat sidebar to active participant** — coding agents (Claude Code, GitHub Copilot, Cursor) write PRs, and ops-side agents (K8sGPT, Datadog Bits AI, Dynatrace Davis CoPilot) triage incidents and suggest remediations directly against telemetry.
 - **Security became a platform capability, not a gate** — "shift left" has evolved into "build in": SBOM generation, image signing (Sigstore/Cosign), and policy enforcement (Kyverno, OPA/Gatekeeper) are wired into the golden path so developers get them for free.
 - **eBPF displaced sidecars for a lot of mesh/network use cases** — Cilium's eBPF dataplane is now a mainstream alternative to sidecar-based Istio for teams that want mesh-grade observability without the latency and resource tax.
+- **On-prem is a live option again, not a legacy footnote** — the VMware licensing changes pushed many teams into evaluating alternatives, and Proxmox VE plus Kubernetes on bare metal (or on VMs) is now a combination you are expected to have an opinion about, not just a lab curiosity.
 - **FinOps tooling is now expected in the platform, not a separate cost review** — OpenCost/Kubecost data increasingly shows up directly in the same dashboards as performance and reliability metrics.
 
 ## CI/CD & Build Automation
@@ -58,6 +59,21 @@ Related competency: [Infrastructure as Code & Policy as Code](../competencies/in
 | [Crossplane](https://www.crossplane.io/) | Kubernetes-native control plane for infrastructure | CNCF-graduated; the backbone of most modern IDPs — infra becomes a Kubernetes API instead of a separate tool |
 | [OPA / Gatekeeper](https://www.openpolicyagent.org/) | General-purpose policy engine + admission controller | The long-standing standard for policy-as-code across Kubernetes and beyond |
 | [Kyverno](https://kyverno.io/) | Kubernetes-native policy engine | Gaining share over OPA for K8s-only policy because policies are plain YAML, no Rego to learn |
+
+## On-Prem Virtualization & Lab Infrastructure
+
+Related competencies: [Kubernetes & Container Platform Operations](../competencies/kubernetes-container-platform) · [Infrastructure as Code & Policy as Code](../competencies/infrastructure-as-code-policy-as-code)
+
+Managed clusters hide this layer; on-prem work and any serious home lab do not. It is also where most of the
+hands-on evidence in this playbook physically comes from — see
+[The Hypervisor Under Your Lab](../../blog/proxmox-under-the-lab/).
+
+| Tool | What it does | Why it matters in practice |
+|---|---|---|
+| 🔥 [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) | Debian-based hypervisor (KVM/QEMU + LXC) with clustering, live migration, ZFS and Ceph in the free tier | The pragmatic way to turn one or two machines into a cluster you can snapshot and rebuild — and, since the VMware licensing changes, a platform teams are being asked about in interviews |
+| [Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview) | Deduplicating, incremental backup server for VMs, containers and hosts | Makes restore drills cheap enough to actually run; a backup you have never restored is a hypothesis |
+| [bpg/proxmox provider](https://registry.terraform.io/providers/bpg/proxmox/latest/docs) | Terraform/OpenTofu provider for Proxmox VMs, containers, storage and networking | Turns a lab from clickops into a repository — the difference between "I installed it once" and IaC you can show |
+| [cloud-init](https://cloudinit.readthedocs.io/) | First-boot configuration of users, keys, packages, network and disks from declarative data | The glue that makes one VM template enough; the same mechanism managed cloud images use |
 
 ## Kubernetes, Networking & Service Mesh
 
