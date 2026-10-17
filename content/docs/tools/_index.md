@@ -72,7 +72,7 @@ hands-on evidence in this playbook physically comes from — see
 |---|---|---|
 | 🔥 [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) | Debian-based hypervisor (KVM/QEMU + LXC) with clustering, live migration, ZFS and Ceph in the free tier | The pragmatic way to turn one or two machines into a cluster you can snapshot and rebuild — and, since the VMware licensing changes, a platform teams are being asked about in interviews |
 | [Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview) | Deduplicating, incremental backup server for VMs, containers and hosts | Makes restore drills cheap enough to actually run; a backup you have never restored is a hypothesis |
-| [bpg/proxmox provider](https://registry.terraform.io/providers/bpg/proxmox/latest/docs) | Terraform/OpenTofu provider for Proxmox VMs, containers, storage and networking | Turns a lab from clickops into a repository — the difference between "I installed it once" and IaC you can show |
+| [bpg/proxmox](https://registry.terraform.io/providers/bpg/proxmox/latest/docs) · [Telmate/proxmox](https://registry.terraform.io/providers/Telmate/proxmox/latest/docs) | Community Terraform/OpenTofu providers for Proxmox VMs, LXC containers, storage and networking | Turns a lab from clickops into a repository — the difference between "I installed it once" and IaC you can show |
 | [cloud-init](https://cloudinit.readthedocs.io/) | First-boot configuration of users, keys, packages, network and disks from declarative data | The glue that makes one VM template enough; the same mechanism managed cloud images use |
 
 ## Kubernetes, Networking & Service Mesh

@@ -41,10 +41,12 @@ Proxmox specifically, rather than VirtualBox, UTM, or whatever ships with your d
 - **ZFS and Ceph are built in**, which means snapshots, send/receive, and a realistic path to practising storage failure
   rather than reading about it.
 - **It has a real REST API**, a CLI (`pvesh`, `qm`, `pct`), a
-  [Terraform/OpenTofu provider](https://registry.terraform.io/providers/bpg/proxmox/latest/docs) and
+  Terraform/OpenTofu providers ([bpg](https://registry.terraform.io/providers/bpg/proxmox/latest/docs) and [Telmate](https://registry.terraform.io/providers/Telmate/proxmox/latest/docs) — both community-maintained, so pin a version) and
   [Packer](https://developer.hashicorp.com/packer/integrations/hashicorp/proxmox) support. This is the part that matters here:
   clickops in a web UI proves nothing, but a lab you can re-create from code is
   [IaC evidence](../../docs/competencies/infrastructure-as-code-policy-as-code).
+
+Scaled past a lab, the same pieces — a Proxmox cluster, Ceph for shared storage, HA and live migration — are a small private cloud: API-driven VMs and containers without a public-cloud bill. That is the real-world version of the lab, and the reason the skill is worth having beyond a laptop. Ceph and HA both assume at least three nodes and a network that is not an afterthought.
 
 The broader context is hard to miss if you work on-prem: the VMware licensing changes under Broadcom pushed a lot of
 organizations into evaluating alternatives, and Proxmox became one of the common landing spots. Treat that as a reason the
@@ -90,7 +92,29 @@ cloud-init for the node config. Now the lab is a repository, the rebuild takes m
 provisioned infrastructure declaratively, including the
 [state operations](https://handson.metacog.co.kr/#/note/02-runbook~terraform-state-operations) that go with it.
 
-### 6. The cost question, answered honestly
+### 6. Ephemeral CI environments
+
+Clone and snapshot are fast, which makes a VM or LXC container a disposable test bed: the pipeline clones a template,
+runs the integration tests against a real OS and real networking, then destroys the clone or rolls it back to its clean
+snapshot. A linked clone starts in seconds and costs almost no disk; use a full clone when the test needs to outlive its
+template. It is the on-prem version of what the
+[Zero-Touch Environment Provisioning](https://automations.metacog.co.kr/docs/case-studies/ephemeral-environments/) case study
+describes, and it slots into the [CI/CD competency](../../docs/competencies/cicd-pipeline-engineering) as an environment you
+create per run instead of one everybody shares and nobody trusts.
+
+One boundary to respect: an LXC container shares the host kernel. For code you wrote and trust, that is a fine, cheap
+sandbox; for untrusted pull requests, use a VM.
+
+### 7. The team's own tooling, in LXC
+
+Prometheus, Grafana, a Gitea or GitLab Runner, a registry, a log collector — the supporting cast of a DevOps team rarely
+needs a full VM. LXC containers boot in seconds and cost a fraction of the memory, so the tooling stack fits next to the
+cluster instead of competing with it. Use unprivileged containers by default, keep the data on its own volume so the
+container stays disposable, and back them up with [Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview).
+The [Prometheus and Grafana labs](https://handson.metacog.co.kr/#/note/01-install~prometheus-instrument-and-query) are a
+natural first set of tenants.
+
+### 8. The cost question, answered honestly
 
 Do the arithmetic before you argue it: node hours, power draw, and the capacity you actually need. A lab that runs a
 three-node cluster plus a registry and an observability stack is cheap on owned hardware and conspicuously not cheap as
@@ -108,6 +132,7 @@ more on a two-node budget than it ever does with an autoscaler.
   others, depending on CPU flags and what you expose to the guest.
 - **HA is a cluster property, not a checkbox.** Proxmox HA needs three nodes for quorum and real fencing to be meaningful;
   two nodes and a shared disk is a split-brain generator.
+- **A private cloud is an operations commitment.** Ceph health, upgrades, backups and capacity become your pager, not a vendor's. Do the staffing arithmetic next to the licensing one.
 - **It is still a hypervisor.** It gives you nodes. Everything the
   [platform competencies](../../docs/competencies) ask for — golden paths, policy, observability, delivery — still has to be
   built on top.
