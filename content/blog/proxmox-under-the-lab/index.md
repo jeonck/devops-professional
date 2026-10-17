@@ -126,6 +126,8 @@ more on a two-node budget than it ever does with an autoscaler.
 
 ## What It Does Not Give You
 
+The handson note [What a hypervisor under the lab would settle — and the four things it would not](https://handson.metacog.co.kr/#/note/04-reference~the-layer-under-the-three-node-lab) works through the same boundary from the evidence side — worth reading next to this list.
+
 - **A lab's numbers do not transfer.** Overcommitted vCPUs are fine for control planes and useless for storage or latency
   benchmarks. Performance conclusions from a hypervisor on one box are not findings.
 - **Nested virtualization has limits.** Running VMs inside your VMs works for some workloads and crawls or breaks for

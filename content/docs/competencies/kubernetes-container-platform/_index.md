@@ -97,6 +97,7 @@ Step-by-step labs from [handson](https://handson.metacog.co.kr/#/notes) — inst
 - [The first three minutes of a CKA attempt — shell setup and generated YAML](https://handson.metacog.co.kr/#/note/02-runbook~cka-exam-first-three-minutes)
 - [CKA practice drills — five exam tasks, and the check that passes on each wrong answer](https://handson.metacog.co.kr/#/note/01-install~cka-practice-cluster-and-checks-that-lie)
 - [Draining a worker on the onprem two-node budget without losing Longhorn or Kafka redundancy](https://handson.metacog.co.kr/#/note/02-runbook~onprem-worker-drain-stateful-workloads)
+- [What a hypervisor under the lab would settle — and the four things it would not](https://handson.metacog.co.kr/#/note/04-reference~the-layer-under-the-three-node-lab)
 
 ## Checklists
 
