@@ -31,6 +31,12 @@ close a gap or to prepare a review — then go operate the thing.
 | [Release Board](https://rel-mgmt.metacog.co.kr/) | Nightly GO / HOLD / NO-GO verdicts on 99 products (releases, EOL, CVEs) | Upgrade and end-of-life decisions |
 | [CuraDevOps](https://curadevops.metacog.co.kr/) · [CuraSec](https://curasec.metacog.co.kr/) · [OSS Insights](https://oss.metacog.co.kr/) | Daily Act / Plan / Learn verdicts on DevOps, security, and open-source signals | Keeping the landscape on this site current |
 
+## Courses
+
+| Course | Provider | Best used for |
+|---|---|---|
+| [DevOps with Kubernetes 2026](https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes-2026) | University of Helsinki, MOOC.fi | A free, project-based path through deployments, networking, storage, monitoring, GKE and GitOps — see [Kubernetes & Containers](../competencies/kubernetes-container-platform/#structured-course) |
+
 ## Architecture Field Notes
 
 Chapters that sit above any one competency — the ones tied to a specific competency are linked from its page.
