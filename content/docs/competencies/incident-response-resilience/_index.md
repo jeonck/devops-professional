@@ -99,7 +99,7 @@ Industry patterns and incident write-ups from [IT Automation](https://automation
 
 Background chapters, ready-to-fill documents and pipeline walkthroughs from the sibling sites — see the full [Reference Library](../../references) for everything else:
 
-**Architecture Field Notes** — [Failure Modes: Timeouts, Breakers, Bulkheads](https://architectures.metacog.co.kr/docs/reliability/failure-modes/) · [Incident Response and Blameless Postmortems](https://architectures.metacog.co.kr/docs/reliability/incident-response/)
+**Architecture Field Notes** — [Failure Modes: Timeouts, Breakers, Bulkheads](https://architectures.metacog.co.kr/docs/reliability/failure-modes/) · [Incident Response and Blameless Postmortems](https://architectures.metacog.co.kr/docs/reliability/incident-response/) · [Static Stability](https://architectures.metacog.co.kr/docs/reliability/static-stability/)
 
 **Automation Playbook** — [Runbook Automation](https://automations.metacog.co.kr/docs/observability-incident-response/runbook-automation/) · [Self-Healing and Auto-Remediation](https://automations.metacog.co.kr/docs/observability-incident-response/self-healing/)
 
